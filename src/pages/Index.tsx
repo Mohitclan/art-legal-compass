@@ -1,13 +1,56 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import DisclaimerModal from "@/components/DisclaimerModal";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import PracticeAreas from "@/components/PracticeAreas";
+import IVFCenters from "@/components/IVFCenters";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 const Index = () => {
+  const [hasAccepted, setHasAccepted] = useState(false);
+  const [isRejected, setIsRejected] = useState(false);
+
+  const handleAccept = () => {
+    setHasAccepted(true);
+  };
+
+  const handleReject = () => {
+    setIsRejected(true);
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <>
+      <DisclaimerModal onAccept={handleAccept} onReject={handleReject} />
+      
+      <div
+        className={`transition-all duration-500 ${
+          !hasAccepted && !isRejected ? "blur-sm pointer-events-none" : ""
+        }`}
+      >
+        <Navbar />
+        <Hero />
+        <About />
+        <PracticeAreas />
+        <IVFCenters />
+        <Contact />
+        <Footer />
       </div>
-    </div>
+
+      {isRejected && (
+        <div className="fixed inset-0 bg-primary/95 flex items-center justify-center z-50">
+          <div className="text-center text-primary-foreground p-8">
+            <h2 className="font-playfair text-3xl font-bold mb-4">
+              Thank you for visiting
+            </h2>
+            <p className="text-lg">
+              You have chosen to exit this website.
+            </p>
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 
