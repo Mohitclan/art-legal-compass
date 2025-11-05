@@ -56,6 +56,12 @@ const Navbar = () => {
               Practice Areas
             </button>
             <button
+              onClick={() => scrollToSection("legal-acts")}
+              className="text-primary-foreground hover:text-gold transition-colors font-medium"
+            >
+              Legal Acts
+            </button>
+            <button
               onClick={() => scrollToSection("ivf-centers")}
               className="text-primary-foreground hover:text-gold transition-colors font-medium"
             >

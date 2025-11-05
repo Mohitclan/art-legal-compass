@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import PracticeAreas from "@/components/PracticeAreas";
+import LegalActs from "@/components/LegalActs";
 import IVFCenters from "@/components/IVFCenters";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -33,6 +34,7 @@ const Index = () => {
         <Hero />
         <About />
         <PracticeAreas />
+        <LegalActs />
         <IVFCenters />
         <Contact />
         <Footer />
