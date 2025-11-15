@@ -29,7 +29,7 @@ const practiceAreas = [
   {
     icon: Scale,
     title: "Other Legal Matters",
-    description: "Consumer forum representation, civil litigation, and general legal advisory services",
+    description: "Consumer forum representation, civil litigation, and general legal advisory services, etc.",
   },
 ];
 
