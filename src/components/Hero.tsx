@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
 
           <h1 className="font-playfair text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Infertility Legal Solutions
+            Best Lawyer for IVF, Surrogacy & ART
           </h1>
 
           <div className="h-1 w-32 mx-auto mb-8 animate-[shimmer_3s_ease-in-out_infinite]" style={{ 
@@ -46,7 +46,7 @@ const Hero = () => {
           }}></div>
 
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-4 font-medium animate-fade-in" style={{ animationDelay: "0.5s" }}>
-            Expert Legal Counsel for ART, Surrogacy, and IVF Centers
+            Expert Legal Solutions for Infertility & Reproductive Healthcare
           </p>
 
           <p className="text-lg text-primary-foreground/80 mb-12 animate-fade-in" style={{ animationDelay: "0.7s" }}>

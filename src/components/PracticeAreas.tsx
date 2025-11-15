@@ -1,4 +1,4 @@
-import { FileText, Shield, Building2, BookCheck, Briefcase } from "lucide-react";
+import { FileText, Shield, Building2, BookCheck, Briefcase, Scale } from "lucide-react";
 
 const practiceAreas = [
   {
@@ -25,6 +25,11 @@ const practiceAreas = [
     icon: Briefcase,
     title: "Civil & Corporate Advisory",
     description: "Holistic legal counsel for healthcare and business entities",
+  },
+  {
+    icon: Scale,
+    title: "Other Legal Matters",
+    description: "Consumer forum representation, civil litigation, and general legal advisory services",
   },
 ];
 
