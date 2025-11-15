@@ -47,20 +47,32 @@ const Contact = () => {
               <div className="mt-8 pt-8 border-t border-ivory/20">
                 <div className="grid md:grid-cols-2 gap-6">
                   {/* Phone */}
-                  <a 
-                    href="tel:+919899499227"
-                    className="flex items-start gap-4 group hover:scale-105 transition-all duration-300 animate-fade-in"
-                    style={{ animationDelay: "0.3s" }}
-                  >
-                    <div className="w-10 h-10 bg-gradient-gold rounded-full flex items-center justify-center shrink-0 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300 shadow-gold">
+                  <div className="flex items-start gap-4 animate-fade-in" style={{ animationDelay: "0.3s" }}>
+                    <div className="w-10 h-10 bg-gradient-gold rounded-full flex items-center justify-center shrink-0 shadow-gold">
                       <Phone className="w-5 h-5 text-primary" />
                     </div>
-                    <div>
-                      <p className="text-ivory text-lg font-medium group-hover:text-gold transition-colors">
-                        +91-9899499227
+                    <div className="flex-1">
+                      <p className="text-ivory text-lg font-medium mb-2">
+                        +91 8392931025
                       </p>
+                      <div className="flex gap-3">
+                        <a 
+                          href="tel:+918392931025"
+                          className="px-4 py-2 bg-gradient-gold rounded-full text-primary text-sm font-semibold hover:scale-105 transition-all duration-300 shadow-gold"
+                        >
+                          Call
+                        </a>
+                        <a 
+                          href="https://wa.me/918392931025?text=Hello%2C%20I%20would%20like%20to%20schedule%20a%20consultation%20regarding%20ART%2C%20Surrogacy%2C%20or%20IVF%20legal%20matters."
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-4 py-2 bg-gradient-gold rounded-full text-primary text-sm font-semibold hover:scale-105 transition-all duration-300 shadow-gold"
+                        >
+                          WhatsApp
+                        </a>
+                      </div>
                     </div>
-                  </a>
+                  </div>
 
                   {/* Email */}
                   <a 
