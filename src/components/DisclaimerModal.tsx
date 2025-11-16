@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { AlertDialog, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle } from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";
 import { Scale } from "lucide-react";
@@ -9,20 +9,9 @@ interface DisclaimerModalProps {
 }
 
 const DisclaimerModal = ({ onAccept, onReject }: DisclaimerModalProps) => {
-  const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    // Check if user has already accepted
-    const hasAccepted = localStorage.getItem("disclaimer-accepted");
-    if (!hasAccepted) {
-      setOpen(true);
-    } else {
-      onAccept();
-    }
-  }, [onAccept]);
+  const [open, setOpen] = useState(true);
 
   const handleAccept = () => {
-    localStorage.setItem("disclaimer-accepted", "true");
     setOpen(false);
     onAccept();
   };
