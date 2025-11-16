@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
 
           <h1 className="font-playfair text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Best Lawyer for IVF, Surrogacy & ART
+            Best Lawyer for IVF, Surrogacy, ART & PC-PNDT
           </h1>
 
           <div className="h-1 w-32 mx-auto mb-8 animate-[shimmer_3s_ease-in-out_infinite]" style={{ 
