@@ -1,5 +1,6 @@
 import { Award, BookOpen, Scale, Users, Briefcase, GraduationCap, FileCheck } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import { trackConsultation } from "@/lib/analytics/events";
 
 const About = () => {
   return (
@@ -162,6 +163,7 @@ const About = () => {
             </p>
             <button
               onClick={() => {
+                trackConsultation("about");
                 document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
               }}
               className="bg-gradient-gold px-8 py-3 rounded-lg text-primary font-bold text-lg hover:opacity-90 hover:scale-105 shadow-gold hover:shadow-2xl transition-all duration-300"

@@ -19,16 +19,16 @@ const SiteLayout = () => {
 
   useEffect(() => {
     // Defer analytics loader until after first paint.
-    const id = window.requestIdleCallback
-      ? window.requestIdleCallback(() => loadGA())
+    const w = window as Window & {
+      requestIdleCallback?: (cb: () => void) => number;
+      cancelIdleCallback?: (id: number) => void;
+    };
+    const id = w.requestIdleCallback
+      ? w.requestIdleCallback(() => loadGA())
       : window.setTimeout(() => loadGA(), 200);
     return () => {
-      if (window.cancelIdleCallback && typeof id === "number") {
-        // requestIdleCallback returns a number
-        window.cancelIdleCallback(id as number);
-      } else {
-        window.clearTimeout(id as number);
-      }
+      if (w.cancelIdleCallback) w.cancelIdleCallback(id as number);
+      else window.clearTimeout(id as number);
     };
   }, []);
 
