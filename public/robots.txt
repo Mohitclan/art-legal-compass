@@ -1,3 +1,8 @@
+# robots.txt - Infertility Legal Solutions
+User-agent: *
+Allow: /
+Disallow: /404
+
 User-agent: Googlebot
 Allow: /
 
@@ -10,5 +15,8 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
-Allow: /
+# Block AI crawlers you don't want (optional - remove to allow)
+# User-agent: GPTBot
+# Disallow: /
+
+Sitemap: https://art-legal-compass.lovable.app/sitemap.xml
