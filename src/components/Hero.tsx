@@ -18,7 +18,12 @@ const Hero = () => {
       <div className="absolute inset-0">
         <img
           src={heroBackground}
-          alt="Legal background"
+          alt="Advocate Barkha Tiwari - Infertility Legal Solutions for IVF, Surrogacy, ART & PC-PNDT"
+          width="1920"
+          height="1080"
+          loading="eager"
+          decoding="async"
+          fetchPriority="high"
           className="w-full h-full object-cover scale-105 animate-[scale-in_1.5s_ease-out]"
         />
         <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
