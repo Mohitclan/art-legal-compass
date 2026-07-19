@@ -39,11 +39,13 @@ const Index = () => {
         }`}
       >
         <Navbar />
-        <Hero />
-        <About />
-        <PracticeAreas />
-        <LegalActs />
-        <Contact />
+        <main id="main-content" role="main">
+          <Hero />
+          <About />
+          <PracticeAreas />
+          <LegalActs />
+          <Contact />
+        </main>
         <Footer />
       </div>
 
