@@ -1,4 +1,6 @@
 import { useState } from "react";
+import SEO from "@/components/SEO";
+import { homeSchemas } from "@/lib/seo-schemas";
 import DisclaimerModal from "@/components/DisclaimerModal";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -22,6 +24,13 @@ const Index = () => {
 
   return (
     <>
+      <SEO
+        title="Best IVF, Surrogacy, ART & PC-PNDT Lawyer in India | Advocate Barkha Tiwari"
+        description="Advocate Barkha Tiwari - Delhi High Court practitioner with 10+ years' experience in IVF, Surrogacy Regulation Act 2021, ART Act 2021 and PC-PNDT Act compliance. Book a consultation."
+        path="/"
+        keywords="IVF lawyer India, surrogacy lawyer, ART Act 2021, PC-PNDT advocate, Barkha Tiwari, infertility legal solutions, Delhi High Court advocate"
+        jsonLd={homeSchemas}
+      />
       <DisclaimerModal onAccept={handleAccept} onReject={handleReject} />
       
       <div
@@ -30,11 +39,13 @@ const Index = () => {
         }`}
       >
         <Navbar />
-        <Hero />
-        <About />
-        <PracticeAreas />
-        <LegalActs />
-        <Contact />
+        <main id="main-content" role="main">
+          <Hero />
+          <About />
+          <PracticeAreas />
+          <LegalActs />
+          <Contact />
+        </main>
         <Footer />
       </div>
 
