@@ -1,4 +1,4 @@
-const SITE_URL = "https://art-legal-compass.lovable.app";
+const SITE_URL = "https://www.infertilitylegalsolutions.com";
 
 export const homeSchemas = [
   {

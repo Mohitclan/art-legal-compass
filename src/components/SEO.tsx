@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 
-const SITE_URL = "https://art-legal-compass.lovable.app";
+const SITE_URL = "https://www.infertilitylegalsolutions.com";
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;
 
 export interface SEOProps {
