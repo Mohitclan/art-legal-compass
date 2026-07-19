@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Scale } from "lucide-react";
+import { trackPhoneClick, trackWhatsApp, trackEmailClick } from "@/lib/analytics/events";
 
 const Contact = () => {
   return (
@@ -56,16 +57,18 @@ const Contact = () => {
                         +91 8392931025
                       </p>
                       <div className="flex gap-3">
-                        <a 
+                        <a
                           href="tel:+918392931025"
+                          onClick={() => trackPhoneClick("contact-card")}
                           className="px-4 py-2 bg-gradient-gold rounded-full text-primary text-sm font-semibold hover:scale-105 transition-all duration-300 shadow-gold"
                         >
                           Call
                         </a>
-                        <a 
+                        <a
                           href="https://wa.me/918392931025?text=Hello%2C%20I%20would%20like%20to%20schedule%20a%20consultation%20regarding%20ART%2C%20Surrogacy%2C%20or%20IVF%20legal%20matters."
                           target="_blank"
                           rel="noopener noreferrer"
+                          onClick={() => trackWhatsApp("contact-card")}
                           className="px-4 py-2 bg-gradient-gold rounded-full text-primary text-sm font-semibold hover:scale-105 transition-all duration-300 shadow-gold"
                         >
                           WhatsApp
@@ -75,8 +78,9 @@ const Contact = () => {
                   </div>
 
                   {/* Email */}
-                  <a 
+                  <a
                     href="mailto:barkha.abha2@gmail.com"
+                    onClick={() => trackEmailClick("contact-card")}
                     className="flex items-start gap-4 group hover:scale-105 transition-all duration-300 animate-fade-in"
                     style={{ animationDelay: "0.4s" }}
                   >

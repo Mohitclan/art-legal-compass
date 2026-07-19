@@ -1,12 +1,12 @@
 import { Scale } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
+import { trackConsultation } from "@/lib/analytics/events";
 
 const Hero = () => {
   const scrollToContact = () => {
+    trackConsultation("hero");
     const element = document.getElementById("contact");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+    if (element) element.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
