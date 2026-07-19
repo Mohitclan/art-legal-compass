@@ -5,7 +5,7 @@ export const SITE = {
   name: "Infertility Legal Solutions",
   legalName: "Infertility Legal Solutions — Advocate Barkha Tiwari",
   tagline: "Best Lawyer for IVF, Surrogacy, ART & PC-PNDT",
-  url: "https://art-legal-compass.lovable.app",
+  url: "https://www.infertilitylegalsolutions.com",
   locale: "en_IN",
   defaultOgImage: "/og-image.jpg",
   person: {

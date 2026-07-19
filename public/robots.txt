@@ -19,4 +19,4 @@ Allow: /
 # User-agent: GPTBot
 # Disallow: /
 
-Sitemap: https://art-legal-compass.lovable.app/sitemap.xml
+Sitemap: https://www.infertilitylegalsolutions.com/sitemap.xml
