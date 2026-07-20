@@ -39,6 +39,15 @@ export type ServiceContent = {
   faqs: FAQ[];
   related: string[]; // slugs of other services
   writingBrief: string[]; // prompts to expand this page later
+  // Rich long-form content (optional, rendered by ServicePageTemplate).
+  legalOverview?: string[];
+  applicableLaws?: { name: string; summary: string }[];
+  rightsResponsibilities?: { rights: string[]; responsibilities: string[] };
+  commonMistakes?: string[];
+  complianceChecklist?: string[];
+  internationalClients?: string[];
+  whyChoose?: string[];
+  conclusion?: string[];
 };
 
 const commonFaqs = {
