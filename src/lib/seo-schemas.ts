@@ -46,10 +46,10 @@ export const homeSchemas = [
       },
       {
         "@type": "Question",
-        name: "How to contact Advocate Barkha Tiwari?",
+        name: "How to contact Advocate Barkha Dwivedi?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "You can reach Advocate Barkha Tiwari at +91-8392931025 or email barkha.abha2@gmail.com for consultations on IVF, Surrogacy, ART and PC-PNDT legal matters.",
+          text: "You can reach Advocate Barkha Dwivedi at +91-8392931025 or email infertilitylegalsolutions@gmail.com for consultations on IVF, Surrogacy, ART and PC-PNDT legal matters.",
         },
       },
     ],
@@ -60,7 +60,7 @@ export const homeSchemas = [
     headline: "Infertility Legal Solutions in India: IVF, Surrogacy, ART & PC-PNDT",
     description:
       "Guide to reproductive healthcare law in India covering the Surrogacy Regulation Act 2021, ART Act 2021, PC-PNDT Act 1994 and MTP Act 1971.",
-    author: { "@type": "Person", name: "Advocate Barkha Tiwari" },
+    author: { "@type": "Person", name: "Advocate Barkha Dwivedi" },
     publisher: {
       "@type": "Organization",
       name: "Infertility Legal Solutions",

@@ -11,10 +11,10 @@ const ContactPage = () => {
   return (
     <>
       <SEO
-        title="Contact Advocate Barkha Tiwari | Chamber & Consultation"
-        description="Contact Advocate Barkha Tiwari — Chamber at Rohini Court Complex, Delhi. Call or WhatsApp +91 8392931025 or email barkha.abha2@gmail.com."
+        title="Contact Advocate Barkha Dwivedi | Chamber & Consultation"
+        description="Contact Advocate Barkha Dwivedi — Chamber at Rohini Court Complex, Delhi. Call or WhatsApp +91 8392931025 or email infertilitylegalsolutions@gmail.com."
         path="/contact"
-        keywords="contact Barkha Tiwari, IVF lawyer Delhi contact, Rohini Court advocate, book consultation IVF surrogacy lawyer"
+        keywords="contact Barkha Dwivedi, IVF lawyer Delhi contact, Rohini Court advocate, book consultation IVF surrogacy lawyer"
         jsonLd={[buildBreadcrumbSchema(crumbs)]}
       />
       <div className="pt-24 bg-gradient-to-br from-primary via-navy to-primary">

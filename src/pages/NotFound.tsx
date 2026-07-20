@@ -14,7 +14,7 @@ const NotFound = () => {
     <>
     <SEO
       title="Page Not Found | Infertility Legal Solutions"
-      description="The page you're looking for doesn't exist. Return to Infertility Legal Solutions by Advocate Barkha Tiwari."
+      description="The page you're looking for doesn't exist. Return to Infertility Legal Solutions by Advocate Barkha Dwivedi."
       path="/404"
       robots="noindex, follow"
       jsonLd={notFoundSchemas}

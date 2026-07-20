@@ -3,17 +3,17 @@
 
 export const SITE = {
   name: "Infertility Legal Solutions",
-  legalName: "Infertility Legal Solutions — Advocate Barkha Tiwari",
+  legalName: "Infertility Legal Solutions — Advocate Barkha Dwivedi",
   tagline: "Best Lawyer for IVF, Surrogacy, ART & PC-PNDT",
   url: "https://www.infertilitylegalsolutions.com",
   locale: "en_IN",
   defaultOgImage: "/og-image.jpg",
   person: {
-    name: "Advocate Barkha Tiwari",
+    name: "Advocate Barkha Dwivedi",
     jobTitle: "Advocate & Solicitor",
     phone: "+91-8392931025",
     phoneDigits: "918392931025",
-    email: "barkha.abha2@gmail.com",
+    email: "infertilitylegalsolutions@gmail.com",
     chamber:
       "Chamber No.-920, Lawyers Chamber Block, Rohini Court Complex, Rohini, Delhi-110085",
     office:

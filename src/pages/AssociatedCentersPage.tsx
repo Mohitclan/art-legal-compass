@@ -13,7 +13,7 @@ const AssociatedCentersPage = () => {
     <>
       <SEO
         title="Associated IVF & Fertility Centers | Delhi NCR"
-        description="Advocate Barkha Tiwari is trusted legal counsel to leading IVF and fertility centres across Delhi NCR — providing compliance and certification support."
+        description="Advocate Barkha Dwivedi is trusted legal counsel to leading IVF and fertility centres across Delhi NCR — providing compliance and certification support."
         path="/associated-centers"
         keywords="IVF centres Delhi, fertility clinics Delhi NCR, ART bank Delhi, IVF legal counsel"
         jsonLd={[buildBreadcrumbSchema(crumbs)]}

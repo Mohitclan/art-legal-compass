@@ -8,9 +8,9 @@ export const AUTHOR = {
   name: SITE.person.name,
   jobTitle: SITE.person.jobTitle,
   shortBio:
-    "Advocate Barkha Tiwari is a Delhi High Court practitioner focused exclusively on Assisted Reproductive Technology (ART), Surrogacy, IVF and PC-PNDT law. She advises intending parents, fertility clinics and ART banks on statutory compliance under the Surrogacy (Regulation) Act 2021, the ART (Regulation) Act 2021 and the PC-PNDT Act 1994.",
+    "Advocate Barkha Dwivedi is a Delhi High Court practitioner focused exclusively on Assisted Reproductive Technology (ART), Surrogacy, IVF and PC-PNDT law. She advises intending parents, fertility clinics and ART banks on statutory compliance under the Surrogacy (Regulation) Act 2021, the ART (Regulation) Act 2021 and the PC-PNDT Act 1994.",
   longBio: [
-    "With more than a decade of dedicated legal practice in reproductive healthcare law, Advocate Barkha Tiwari represents intending couples, single women, surrogate mothers, IVF centres and ART banks across India. Her chamber has handled matters ranging from eligibility certification and altruistic surrogacy agreements to District Medical Board approvals, cross-border parentage issues and clinic-level PC-PNDT and ART compliance audits.",
+    "With more than a decade of dedicated legal practice in reproductive healthcare law, Advocate Barkha Dwivedi represents intending couples, single women, surrogate mothers, IVF centres and ART banks across India. Her chamber has handled matters ranging from eligibility certification and altruistic surrogacy agreements to District Medical Board approvals, cross-border parentage issues and clinic-level PC-PNDT and ART compliance audits.",
     "She combines statutory expertise with practical courtroom experience before the Delhi High Court, district judiciary and quasi-judicial forums including Appropriate Authorities and Consumer Forums. Her work is regularly relied upon by fertility clinics and international intending parents who require legally-defensible documentation and end-to-end representation.",
   ],
   credentials: [

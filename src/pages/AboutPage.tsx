@@ -22,10 +22,10 @@ const AboutPage = () => {
   return (
     <>
       <SEO
-        title="About Advocate Barkha Tiwari | Infertility Legal Solutions"
-        description="Advocate Barkha Tiwari — Delhi High Court practitioner with 10+ years' experience advising IVF centres, ART banks and intending parents on Surrogacy, ART and PC-PNDT compliance."
+        title="About Advocate Barkha Dwivedi | Infertility Legal Solutions"
+        description="Advocate Barkha Dwivedi — Delhi High Court practitioner with 10+ years' experience advising IVF centres, ART banks and intending parents on Surrogacy, ART and PC-PNDT compliance."
         path="/about"
-        keywords="Advocate Barkha Tiwari, fertility lawyer Delhi, IVF advocate India, surrogacy lawyer, ART lawyer"
+        keywords="Advocate Barkha Dwivedi, fertility lawyer Delhi, IVF advocate India, surrogacy lawyer, ART lawyer"
         jsonLd={[
           buildBreadcrumbSchema(crumbs),
           buildPersonSchema(),

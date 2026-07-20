@@ -15,10 +15,10 @@ const Index = () => {
   return (
     <>
       <SEO
-        title="Best IVF, Surrogacy, ART & PC-PNDT Lawyer in India | Advocate Barkha Tiwari"
-        description="Advocate Barkha Tiwari - Delhi High Court practitioner with 10+ years' experience in IVF, Surrogacy Regulation Act 2021, ART Act 2021 and PC-PNDT Act compliance. Book a consultation."
+        title="Best IVF, Surrogacy, ART & PC-PNDT Lawyer in India | Advocate Barkha Dwivedi"
+        description="Advocate Barkha Dwivedi - Delhi High Court practitioner with 10+ years' experience in IVF, Surrogacy Regulation Act 2021, ART Act 2021 and PC-PNDT Act compliance. Book a consultation."
         path="/"
-        keywords="IVF lawyer India, surrogacy lawyer, ART Act 2021, PC-PNDT advocate, Barkha Tiwari, infertility legal solutions, Delhi High Court advocate"
+        keywords="IVF lawyer India, surrogacy lawyer, ART Act 2021, PC-PNDT advocate, Barkha Dwivedi, infertility legal solutions, Delhi High Court advocate"
         jsonLd={[buildOrganizationSchema(), buildPersonSchema(), ...homeSchemas]}
       />
       <Hero />
