@@ -58,11 +58,71 @@ export function buildArticleSchema(src: SEOSource) {
     description: src.description,
     datePublished: src.publishedAt,
     dateModified: src.updatedAt || src.publishedAt,
-    author: { "@type": "Person", name: SITE.person.name },
-    publisher: { "@type": "Organization", name: SITE.name },
+    author: { "@id": `${SITE.url}/#person` },
+    reviewedBy: { "@id": `${SITE.url}/#person` },
+    publisher: { "@id": `${SITE.url}/#organization` },
     mainEntityOfPage: { "@type": "WebPage", "@id": abs(src.slug || "/") },
     inLanguage: "en-IN",
   };
+}
+
+export function buildPersonSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${SITE.url}/#person`,
+    name: SITE.person.name,
+    jobTitle: SITE.person.jobTitle,
+    telephone: SITE.person.phone,
+    email: SITE.person.email,
+    url: `${SITE.url}/about`,
+    worksFor: { "@id": `${SITE.url}/#organization` },
+    knowsAbout: [
+      "Surrogacy (Regulation) Act, 2021",
+      "Assisted Reproductive Technology (Regulation) Act, 2021",
+      "PC-PNDT Act, 1994",
+      "Medical Termination of Pregnancy Act, 1971",
+      "IVF clinic compliance",
+      "Cross-border ART parentage",
+    ],
+    alumniOf: { "@type": "EducationalOrganization", name: "Faculty of Law" },
+    memberOf: [
+      { "@type": "Organization", name: "Bar Council of Delhi" },
+      { "@type": "Organization", name: "Delhi High Court Bar Association" },
+    ],
+  };
+}
+
+export function buildOrganizationSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${SITE.url}/#organization`,
+    name: SITE.name,
+    legalName: SITE.legalName,
+    url: SITE.url,
+    logo: `${SITE.url}${SITE.defaultOgImage}`,
+    founder: { "@id": `${SITE.url}/#person` },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: SITE.person.phone,
+      email: SITE.person.email,
+      contactType: "customer support",
+      areaServed: "IN",
+      availableLanguage: ["en", "hi"],
+    },
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: SITE.person.office,
+      addressCountry: "IN",
+    },
+  };
+}
+
+export function buildAuthorSchema() {
+  // Alias — Google accepts Person as author. Kept as a distinct export
+  // so pages can attach it explicitly for Article/BlogPosting contexts.
+  return buildPersonSchema();
 }
 
 export function buildSchemasForPage(
