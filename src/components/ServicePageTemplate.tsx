@@ -130,7 +130,7 @@ const ServicePageTemplate = ({ service }: Props) => {
   return (
     <>
       <SEO
-        title={`${service.title} | Advocate Barkha Tiwari`}
+        title={`${service.title} | Advocate Barkha Dwivedi`}
         description={service.metaDescription}
         path={path}
         keywords={service.keywords.join(", ")}
@@ -327,7 +327,7 @@ const ServicePageTemplate = ({ service }: Props) => {
         ) : null}
 
         {service.whyChoose?.length ? (
-          <Section title="Why Choose Advocate Barkha Tiwari" id="why-choose">
+          <Section title="Why Choose Advocate Barkha Dwivedi" id="why-choose">
             <ul className="space-y-3">
               {service.whyChoose.map((item, i) => (
                 <li key={i} className="flex items-start gap-3">

@@ -41,7 +41,7 @@ const DisclaimerModal = ({ onAccept, onReject }: DisclaimerModalProps) => {
             <p>
               By clicking <span className="font-semibold text-gold">"I AGREE"</span>, 
               you confirm that you are independently seeking information about{" "}
-              <span className="font-semibold">Infertility Legal Solutions</span> (Adv. Barkha Tiwari) 
+              <span className="font-semibold">Infertility Legal Solutions</span> (Adv. Barkha Dwivedi) 
               and that no solicitation or advertisement has been made by her or her associates.
             </p>
           </AlertDialogDescription>

@@ -9,7 +9,7 @@ type Props = {
 };
 
 const CTASection = ({
-  heading = "Speak to Advocate Barkha Tiwari",
+  heading = "Speak to Advocate Barkha Dwivedi",
   subheading = "Book a consultation on IVF, Surrogacy, ART or PC-PNDT matters.",
   ctaLabel = "Request Consultation",
   source,

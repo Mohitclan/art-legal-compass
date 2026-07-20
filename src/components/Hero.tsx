@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="absolute inset-0">
         <img
           src={heroBackground}
-          alt="Advocate Barkha Tiwari - Infertility Legal Solutions for IVF, Surrogacy, ART & PC-PNDT"
+          alt="Advocate Barkha Dwivedi - Infertility Legal Solutions for IVF, Surrogacy, ART & PC-PNDT"
           width="1920"
           height="1080"
           loading="eager"
@@ -55,7 +55,7 @@ const Hero = () => {
           </p>
 
           <p className="text-lg text-primary-foreground/80 mb-12 animate-fade-in" style={{ animationDelay: "0.7s" }}>
-            Advocate Barkha Tiwari | Advocate & Solicitor | Delhi High Court
+            Advocate Barkha Dwivedi | Advocate & Solicitor | Delhi High Court
           </p>
 
           <button

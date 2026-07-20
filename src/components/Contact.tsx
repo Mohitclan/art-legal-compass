@@ -30,7 +30,7 @@ const Contact = () => {
                 {/* Left side - Name and Title */}
                 <div className="text-center md:text-left">
                   <h3 className="font-playfair text-4xl md:text-5xl font-bold text-ivory mb-2 tracking-wide animate-fade-in">
-                    BARKHA TIWARI
+                    BARKHA DWIVEDI
                   </h3>
                   <div className="h-0.5 w-32 bg-gradient-gold mb-4 mx-auto md:mx-0 animate-[shimmer_3s_ease-in-out_infinite]" style={{ 
                     backgroundImage: "linear-gradient(90deg, transparent, hsl(var(--gold)), transparent)",
@@ -79,7 +79,7 @@ const Contact = () => {
 
                   {/* Email */}
                   <a
-                    href="mailto:barkha.abha2@gmail.com"
+                    href="mailto:infertilitylegalsolutions@gmail.com"
                     onClick={() => trackEmailClick("contact-card")}
                     className="flex items-start gap-4 group hover:scale-105 transition-all duration-300 animate-fade-in"
                     style={{ animationDelay: "0.4s" }}
@@ -89,7 +89,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-ivory text-lg font-medium group-hover:text-gold transition-colors break-all">
-                        barkha.abha2@gmail.com
+                        infertilitylegalsolutions@gmail.com
                       </p>
                     </div>
                   </a>

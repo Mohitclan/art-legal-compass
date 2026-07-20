@@ -52,8 +52,8 @@ export type ServiceContent = {
 
 const commonFaqs = {
   contact: {
-    q: "How do I book a consultation with Advocate Barkha Tiwari?",
-    a: "Reach out at +91 8392931025 (Call or WhatsApp) or email barkha.abha2@gmail.com. Chamber consultations are held at Rohini Court Complex, Delhi.",
+    q: "How do I book a consultation with Advocate Barkha Dwivedi?",
+    a: "Reach out at +91 8392931025 (Call or WhatsApp) or email infertilitylegalsolutions@gmail.com. Chamber consultations are held at Rohini Court Complex, Delhi.",
   },
 };
 
@@ -77,7 +77,7 @@ export const services: ServiceContent[] = [
     intro: [
       "Surrogacy in India is one of the most tightly regulated areas of medical law. The Surrogacy (Regulation) Act, 2021 and the Surrogacy (Regulation) Rules, 2022 have completely restructured how intending couples, single women, surrogate mothers and fertility clinics may participate in a surrogacy arrangement. What was once a largely contract-driven, commercial industry is now a statutory framework that requires certified medical indication, Board approvals, insurance cover and a legally vetted altruistic surrogacy agreement before a single embryo transfer can lawfully take place.",
       "For families struggling with infertility, this legislative shift has brought both clarity and complexity. Clarity because the rights of the child, the surrogate mother and the intending parents are now explicitly protected by statute. Complexity because every step — from proving medical infertility to drafting the agreement and registering the birth — must strictly conform to the Act. A single procedural lapse can invalidate the arrangement, expose clinics to criminal prosecution and leave the child's legal parentage uncertain.",
-      "Advocate Barkha Tiwari has represented intending couples, surrogate mothers and ART clinics across Delhi NCR in every phase of the surrogacy pathway. As a dedicated surrogacy lawyer in India, the chamber focuses exclusively on the compliance-heavy areas of ART, surrogacy and PC-PNDT — advising on eligibility, drafting statutorily compliant altruistic surrogacy agreements, securing District Medical Board and Surrogacy Board approvals, and ensuring that the post-birth documentation withstands scrutiny by hospitals, registrars and passport authorities.",
+      "Advocate Barkha Dwivedi has represented intending couples, surrogate mothers and ART clinics across Delhi NCR in every phase of the surrogacy pathway. As a dedicated surrogacy lawyer in India, the chamber focuses exclusively on the compliance-heavy areas of ART, surrogacy and PC-PNDT — advising on eligibility, drafting statutorily compliant altruistic surrogacy agreements, securing District Medical Board and Surrogacy Board approvals, and ensuring that the post-birth documentation withstands scrutiny by hospitals, registrars and passport authorities.",
       "This page is a working legal resource for anyone considering surrogacy in India. It explains the statute, walks through the process, sets out the eligibility criteria and documentation, addresses the most common legal mistakes, and answers the questions clients ask most often. If any element of your situation is unusual — a same-sex partner, an OCI card holder, an unresolved medical condition, an earlier failed IVF cycle abroad — treat this page as a starting point and follow up with a formal consultation before signing anything or beginning treatment.",
     ],
     applicableAct: {
@@ -262,7 +262,7 @@ export const services: ServiceContent[] = [
     ],
     conclusion: [
       "Surrogacy in India is achievable, lawful and safe when the statutory framework is respected in full. It is fraught with legal and personal risk when it is not. If you are considering surrogacy — whether as an intending parent, a prospective surrogate or a fertility clinic — the correct first step is a written legal opinion tailored to your facts, followed by a compliant end-to-end pathway executed under professional supervision.",
-      "To speak with Advocate Barkha Tiwari about a surrogacy matter, call or WhatsApp +91 8392931025 or email barkha.abha2@gmail.com. Consultations are held at the chamber in Rohini Court Complex, Delhi, and virtual consultations are available for out-of-station clients.",
+      "To speak with Advocate Barkha Dwivedi about a surrogacy matter, call or WhatsApp +91 8392931025 or email infertilitylegalsolutions@gmail.com. Consultations are held at the chamber in Rohini Court Complex, Delhi, and virtual consultations are available for out-of-station clients.",
     ],
     faqs: [
       {
@@ -316,7 +316,7 @@ export const services: ServiceContent[] = [
       "In vitro fertilisation has evolved from a niche medical intervention into one of the most litigated and regulated areas of Indian healthcare. Every IVF cycle sits at the intersection of the Assisted Reproductive Technology (Regulation) Act, 2021, the Pre-Conception and Pre-Natal Diagnostic Techniques Act, 1994, the Surrogacy (Regulation) Act, 2021, the Clinical Establishments Act, the Bio-Medical Waste Management Rules and the ordinary law of contract and tort. Robust IVF legal services are no longer optional; they are the foundation on which a modern fertility practice — and a patient's trust in that practice — is built.",
       "For patients, IVF is a deeply personal journey involving significant financial investment, emotional stress and highly technical medical decisions. Consent forms are signed at every stage — for controlled ovarian stimulation, oocyte retrieval, sperm collection, embryo creation, cryopreservation, embryo transfer, embryo disposition and, in donor cycles, third-party gametes. Each of these consents is a legal instrument with real consequences. Ambiguous or defective consents are the single largest source of IVF disputes in India.",
       "For clinics and ART banks, the risks are equally real. Regulators may inspect at short notice. Patients may allege negligence, misrepresentation or breach of confidentiality. Disputes may arise over embryo custody after separation, over donor identification or over the accuracy of medical records. Every one of these risks can be substantially mitigated by well-drafted documentation, disciplined record-keeping and a clear governance framework aligned with the ART Act and its Rules.",
-      "Advocate Barkha Tiwari provides end-to-end IVF legal services from Delhi. The chamber acts for fertility clinics on registration, SOP development and inspection defence, and for patients on consent review, embryo custody, donor agreements and grievance representation. This resource explains the framework, the process, the mistakes to avoid and the safeguards every stakeholder should insist on.",
+      "Advocate Barkha Dwivedi provides end-to-end IVF legal services from Delhi. The chamber acts for fertility clinics on registration, SOP development and inspection defence, and for patients on consent review, embryo custody, donor agreements and grievance representation. This resource explains the framework, the process, the mistakes to avoid and the safeguards every stakeholder should insist on.",
     ],
     applicableAct: {
       shortName: "ART Act",
@@ -481,7 +481,7 @@ export const services: ServiceContent[] = [
     internationalClients: [
       "IVF treatment for foreign patients is not blanket prohibited in the way surrogacy is, but it is subject to detailed statutory conditions and evolving Ministry of Health advisories. NRIs holding Indian citizenship generally retain their eligibility on par with resident Indians, whereas Overseas Citizen of India cardholders and foreign nationals require a case-by-case assessment before treatment begins.",
       "For international patients travelling to India for IVF, particular attention must be paid to visa category, custody and transport of frozen gametes or embryos, cross-border movement of biological material, and the legal position in the patient's home country regarding treatment received in India. Clinics accepting international patients should insist on written pre-treatment opinions and country-specific disclosures to avoid future disputes.",
-      "Advocate Barkha Tiwari issues written opinions for both individual international patients and for fertility clinics that receive high volumes of international enquiries. These opinions cover eligibility, permissible procedures, documentation and post-treatment considerations, and are updated as the regulatory framework evolves.",
+      "Advocate Barkha Dwivedi issues written opinions for both individual international patients and for fertility clinics that receive high volumes of international enquiries. These opinions cover eligibility, permissible procedures, documentation and post-treatment considerations, and are updated as the regulatory framework evolves.",
     ],
     whyChoose: [
       "Focused fertility-law practice at the intersection of ART, surrogacy and PC-PNDT",
@@ -494,7 +494,7 @@ export const services: ServiceContent[] = [
     ],
     conclusion: [
       "IVF legal services are not a luxury reserved for large fertility chains — they are essential infrastructure for any clinic that intends to operate lawfully and any patient who intends to undergo treatment with clear eyes. The right time to engage counsel is before a problem arises, not after a notice or a dispute.",
-      "To discuss IVF legal services with Advocate Barkha Tiwari, call or WhatsApp +91 8392931025 or email barkha.abha2@gmail.com. Consultations are held at the chamber at Rohini Court Complex, Delhi, and virtual consultations are available for out-of-station clients and clinics.",
+      "To discuss IVF legal services with Advocate Barkha Dwivedi, call or WhatsApp +91 8392931025 or email infertilitylegalsolutions@gmail.com. Consultations are held at the chamber at Rohini Court Complex, Delhi, and virtual consultations are available for out-of-station clients and clinics.",
     ],
     faqs: [
       {
@@ -697,7 +697,7 @@ export const services: ServiceContent[] = [
     ],
     internationalClients: [
       "Foreign nationals seeking ART treatment in India, and Indian ART clinics receiving international patients, must operate within the boundaries of the ART Act, the Surrogacy Act and applicable Ministry of Health advisories. Foreign patients cannot commission surrogacy, but ART treatment for such patients is not blanket prohibited and depends on the specific procedure, visa category and citizenship or OCI status.",
-      "Clinics that treat international patients should adopt enhanced documentation — pre-treatment written opinions, country-specific disclosures, cross-border embryo transport protocols, and clear communication about what will and will not be reported to which authorities. Advocate Barkha Tiwari provides opinion letters that clinics can rely upon and, where appropriate, share with the patient before treatment begins.",
+      "Clinics that treat international patients should adopt enhanced documentation — pre-treatment written opinions, country-specific disclosures, cross-border embryo transport protocols, and clear communication about what will and will not be reported to which authorities. Advocate Barkha Dwivedi provides opinion letters that clinics can rely upon and, where appropriate, share with the patient before treatment begins.",
     ],
     whyChoose: [
       "Specialist focus on the ART Act, Surrogacy Act and PC-PNDT Act",
@@ -709,7 +709,7 @@ export const services: ServiceContent[] = [
     ],
     conclusion: [
       "ART Act compliance is the difference between a fertility practice that grows with confidence and one that lives in fear of the next inspection. The investment in doing it properly — once, at the point of registration or renewal — pays back many times over in operational calm and patient trust.",
-      "To discuss ART Act compliance for your clinic or ART bank, contact Advocate Barkha Tiwari at +91 8392931025 (Call / WhatsApp) or barkha.abha2@gmail.com. Chamber consultations are available at Rohini Court Complex, Delhi.",
+      "To discuss ART Act compliance for your clinic or ART bank, contact Advocate Barkha Dwivedi at +91 8392931025 (Call / WhatsApp) or infertilitylegalsolutions@gmail.com. Chamber consultations are available at Rohini Court Complex, Delhi.",
     ],
     faqs: [
       {
@@ -757,7 +757,7 @@ export const services: ServiceContent[] = [
       "The Pre-Conception and Pre-Natal Diagnostic Techniques Act, 1994 is one of the most vigorously enforced medical laws in India. It was enacted to arrest the country's declining child sex ratio and it criminalises any use of pre-conception or pre-natal diagnostic techniques for the purpose of sex-selection. In the three decades since its enactment, and particularly since the 2003 amendments, it has become the principal statute affecting every ultrasound clinic, diagnostic centre and hospital radiology department in the country.",
       "PC-PNDT compliance is often misunderstood as a paperwork exercise around Form F. In reality, it is a comprehensive regime covering registration of the facility, qualifications of the person conducting the scan, physical infrastructure, mandatory declarations by pregnant women, meticulous record-keeping, monthly reporting to the Appropriate Authority, prohibition on advertising and cooperation with periodic inspection. Any gap in this chain can, and frequently does, trigger a sealing order, prosecution and cancellation of registration.",
       "For clinics and hospitals, PC-PNDT compliance is uniquely unforgiving. The Act creates strict liability for many procedural violations, and the penalties escalate quickly — imprisonment, seizure of ultrasound equipment, suspension of registration and adverse publicity. Even a well-run centre can find itself facing a show-cause notice arising from an incomplete Form F entry or an outdated staff qualification record.",
-      "Advocate Barkha Tiwari has extensive experience representing ultrasound clinics, diagnostic centres and hospitals in PC-PNDT matters across Delhi NCR — from routine registration and renewal work to defence in criminal prosecutions and appeals against sealing orders. This resource explains the framework, the process, the mistakes to avoid and the practical steps every diagnostic facility should take today.",
+      "Advocate Barkha Dwivedi has extensive experience representing ultrasound clinics, diagnostic centres and hospitals in PC-PNDT matters across Delhi NCR — from routine registration and renewal work to defence in criminal prosecutions and appeals against sealing orders. This resource explains the framework, the process, the mistakes to avoid and the practical steps every diagnostic facility should take today.",
     ],
     applicableAct: {
       shortName: "PC-PNDT Act",
@@ -904,7 +904,7 @@ export const services: ServiceContent[] = [
     ],
     internationalClients: [
       "The PC-PNDT Act applies uniformly within India regardless of the nationality of the patient. Foreign nationals undergoing prenatal diagnostic tests in India are equally covered, and clinics serving international patients must ensure that Form F and consent documentation are compliant in every respect. Language differences do not relieve the clinic of its obligation to obtain informed, signed declarations.",
-      "For clinics catering to international patients — including OCI and NRI families — additional care is required to ensure that any communication about the pregnancy, ultrasound findings or diagnostic conclusions is documented in a manner that cannot be interpreted as disclosing the sex of the foetus. Advocate Barkha Tiwari advises clinics on written communication protocols and consent documentation for international patients.",
+      "For clinics catering to international patients — including OCI and NRI families — additional care is required to ensure that any communication about the pregnancy, ultrasound findings or diagnostic conclusions is documented in a manner that cannot be interpreted as disclosing the sex of the foetus. Advocate Barkha Dwivedi advises clinics on written communication protocols and consent documentation for international patients.",
     ],
     whyChoose: [
       "Extensive PC-PNDT prosecution defence experience at Rohini Court, Delhi",
@@ -916,7 +916,7 @@ export const services: ServiceContent[] = [
     ],
     conclusion: [
       "PC-PNDT compliance is unforgiving in a way few other healthcare laws are. The clinics that survive and thrive are those that treat compliance as daily practice rather than emergency response. Investing in registration, Form F discipline and staff training today is dramatically less costly than defending a prosecution tomorrow.",
-      "To discuss PC-PNDT compliance, registration, renewal or prosecution defence, contact Advocate Barkha Tiwari at +91 8392931025 (Call / WhatsApp) or barkha.abha2@gmail.com. Chamber consultations are available at Rohini Court Complex, Delhi.",
+      "To discuss PC-PNDT compliance, registration, renewal or prosecution defence, contact Advocate Barkha Dwivedi at +91 8392931025 (Call / WhatsApp) or infertilitylegalsolutions@gmail.com. Chamber consultations are available at Rohini Court Complex, Delhi.",
     ],
     faqs: [
       {
@@ -963,7 +963,7 @@ export const services: ServiceContent[] = [
     intro: [
       "For decades, India was one of the world's leading destinations for cross-border surrogacy. Foreign intended parents travelled to Indian fertility clinics from every continent, often supported by intermediaries who promised speed, affordability and legal simplicity. That era has come to a decisive end. The Surrogacy (Regulation) Act, 2021 restricts surrogacy in India to Indian citizens, and cross-border surrogacy for foreign nationals is no longer available in the form it once was.",
       "This shift has left many foreign families — including OCI card holders, NRIs and families with a historical connection to India — uncertain about where they stand. Well-meaning misinformation is common. Some clinics and consultants continue to make representations that cannot be reconciled with the statute. The result is that foreign intended parents often need a straightforward, written legal opinion before making any medical, financial or travel commitment.",
-      "Advocate Barkha Tiwari issues such opinions from Delhi. Each opinion is grounded in the current text of the Surrogacy (Regulation) Act, 2021, the Surrogacy Rules, 2022, the ART Act, 2021 and the latest advisories from the Ministry of Health and Family Welfare and the Ministry of External Affairs. Where the law does not permit surrogacy, that is stated plainly. Where lawful ART alternatives exist, they are explained. Where cross-border referrals are appropriate, they are indicated.",
+      "Advocate Barkha Dwivedi issues such opinions from Delhi. Each opinion is grounded in the current text of the Surrogacy (Regulation) Act, 2021, the Surrogacy Rules, 2022, the ART Act, 2021 and the latest advisories from the Ministry of Health and Family Welfare and the Ministry of External Affairs. Where the law does not permit surrogacy, that is stated plainly. Where lawful ART alternatives exist, they are explained. Where cross-border referrals are appropriate, they are indicated.",
       "This resource sets out, in plain language, the current legal position for foreign intended parents; the position of NRIs and OCI card holders; the legal framework that applies to any ART treatment received in India by a foreign national; and the practical steps the chamber follows when advising international clients.",
     ],
     applicableAct: {
@@ -1114,7 +1114,7 @@ export const services: ServiceContent[] = [
     ],
     conclusion: [
       "Foreign intended parents are best served by an early, honest, written legal opinion. The Indian statutory framework is now unambiguous in most respects, and the clarity it offers — even where the answer is restrictive — is preferable to the uncertainty of pursuing treatment based on informal representations.",
-      "To request a preliminary legal opinion, contact Advocate Barkha Tiwari at +91 8392931025 (Call / WhatsApp) or barkha.abha2@gmail.com. Virtual consultations are available across time zones and written opinions are issued in English.",
+      "To request a preliminary legal opinion, contact Advocate Barkha Dwivedi at +91 8392931025 (Call / WhatsApp) or infertilitylegalsolutions@gmail.com. Virtual consultations are available across time zones and written opinions are issued in English.",
     ],
     faqs: [
       {

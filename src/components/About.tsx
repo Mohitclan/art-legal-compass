@@ -16,7 +16,7 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="font-playfair text-4xl md:text-5xl font-bold text-primary mb-4">
-              About Advocate Barkha Tiwari
+              About Advocate Barkha Dwivedi
             </h2>
             <div className="h-1 w-24 bg-gradient-gold mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -28,7 +28,7 @@ const About = () => {
           <Card className="bg-card/80 backdrop-blur-sm border-2 border-border hover:border-gold p-8 md:p-12 mb-12 shadow-elegant hover:shadow-gold transition-all duration-500 animate-slide-up group">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-foreground leading-relaxed mb-6 group-hover:scale-[1.01] transition-transform duration-300">
-                <span className="font-semibold text-primary text-xl">Barkha Tiwari</span> is a distinguished{" "}
+                <span className="font-semibold text-primary text-xl">Barkha Dwivedi</span> is a distinguished{" "}
                 <span className="text-gold font-medium">Advocate & Solicitor</span> with specialized expertise in 
                 infertility and reproductive healthcare law. With over a decade of professional experience, she has 
                 established herself as a trusted legal advisor for IVF centers, ART banks, and intending parents 
@@ -158,7 +158,7 @@ const About = () => {
             </h3>
             <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-6">
               With extensive experience in fertility law and a deep commitment to protecting the rights of all 
-              parties involved in assisted reproduction, Advocate Barkha Tiwari provides comprehensive legal 
+              parties involved in assisted reproduction, Advocate Barkha Dwivedi provides comprehensive legal 
               solutions tailored to your specific needs.
             </p>
             <button

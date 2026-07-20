@@ -18,7 +18,7 @@ const Footer = () => {
 
           <div className="space-y-2">
             <p className="text-primary-foreground/90">
-              © 2025 Infertility Legal Solutions | Advocate Barkha Tiwari
+              © 2025 Infertility Legal Solutions | Advocate Barkha Dwivedi
             </p>
             <p className="text-primary-foreground/90">All Rights Reserved</p>
           </div>
