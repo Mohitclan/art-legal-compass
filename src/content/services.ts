@@ -264,15 +264,6 @@ export const services: ServiceContent[] = [
       "Surrogacy in India is achievable, lawful and safe when the statutory framework is respected in full. It is fraught with legal and personal risk when it is not. If you are considering surrogacy — whether as an intending parent, a prospective surrogate or a fertility clinic — the correct first step is a written legal opinion tailored to your facts, followed by a compliant end-to-end pathway executed under professional supervision.",
       "To speak with Advocate Barkha Tiwari about a surrogacy matter, call or WhatsApp +91 8392931025 or email barkha.abha2@gmail.com. Consultations are held at the chamber in Rohini Court Complex, Delhi, and virtual consultations are available for out-of-station clients.",
     ],
-    whoNeeds: [
-      "Indian married couples with proven medical infertility seeking altruistic surrogacy",
-      "Indian widows aged 35 to 45 exploring surrogacy as a route to parenthood",
-      "Indian divorcees aged 35 to 45 within the same statutory age band",
-      "Surrogate mothers who require independent legal counsel and consent documentation",
-      "IVF and ART clinics facilitating surrogacy who need pre-procedure compliance vetting",
-      "Hospitals and nursing homes handling deliveries of surrogate pregnancies",
-      "OCI or NRI families requiring an opinion on their eligibility under the Act",
-    ],
     faqs: [
       {
         q: "Who can opt for surrogacy in India under the Surrogacy Regulation Act 2021?",
