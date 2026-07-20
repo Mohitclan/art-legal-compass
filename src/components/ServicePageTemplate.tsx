@@ -148,13 +148,42 @@ const ServicePageTemplate = ({ service }: Props) => {
         {renderList("Who Needs This Service", service.whoNeeds)}
         {renderList("Key Benefits", service.benefits)}
 
+        {/* Legal Overview */}
+        {service.legalOverview?.length ? (
+          <Section title="Legal Overview">
+            <div className="prose prose-lg max-w-none">
+              {service.legalOverview.map((p, i) => (
+                <p key={i} className="text-foreground/85 leading-relaxed mb-4">
+                  {p}
+                </p>
+              ))}
+            </div>
+          </Section>
+        ) : null}
+
+        {/* Applicable Indian Laws */}
+        {service.applicableLaws?.length ? (
+          <Section title="Applicable Indian Laws">
+            <div className="space-y-5">
+              {service.applicableLaws.map((l, i) => (
+                <div key={i}>
+                  <h3 className="font-playfair text-xl text-primary font-semibold mb-2">
+                    {l.name}
+                  </h3>
+                  <p className="text-foreground/85 leading-relaxed">{l.summary}</p>
+                </div>
+              ))}
+            </div>
+          </Section>
+        ) : null}
+
         {/* Legal Process */}
         {isTodo(service.legalProcess) ? (
           <Section title="Legal Process">
             <ContentGap title="Legal Process" note={service.legalProcess.note} />
           </Section>
         ) : service.legalProcess.length ? (
-          <Section title="Legal Process">
+          <Section title="Complete Legal Process">
             <ol className="space-y-4">
               {service.legalProcess.map((step, i) => (
                 <li key={i} className="flex gap-4">
@@ -191,6 +220,85 @@ const ServicePageTemplate = ({ service }: Props) => {
                     {t.duration}
                   </p>
                 </Card>
+              ))}
+            </div>
+          </Section>
+        ) : null}
+
+        {service.rightsResponsibilities ? (
+          <Section title="Rights and Responsibilities">
+            <div className="grid md:grid-cols-2 gap-6">
+              <Card className="p-5 border-2 border-border">
+                <h3 className="font-playfair text-lg text-primary font-semibold mb-3">
+                  Your Rights
+                </h3>
+                <ul className="space-y-2">
+                  {service.rightsResponsibilities.rights.map((r, i) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <CheckCircle2 className="mt-1 h-4 w-4 shrink-0 text-gold" />
+                      <span className="text-foreground/85 text-sm leading-relaxed">
+                        {r}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </Card>
+              <Card className="p-5 border-2 border-border">
+                <h3 className="font-playfair text-lg text-primary font-semibold mb-3">
+                  Your Responsibilities
+                </h3>
+                <ul className="space-y-2">
+                  {service.rightsResponsibilities.responsibilities.map((r, i) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <CheckCircle2 className="mt-1 h-4 w-4 shrink-0 text-gold" />
+                      <span className="text-foreground/85 text-sm leading-relaxed">
+                        {r}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </Card>
+            </div>
+          </Section>
+        ) : null}
+
+        {renderList("Common Legal Mistakes to Avoid", service.commonMistakes)}
+        {renderList("Compliance Checklist", service.complianceChecklist)}
+
+        {service.internationalClients?.length ? (
+          <Section title="International Clients and Cross-Border Considerations">
+            <div className="prose prose-lg max-w-none">
+              {service.internationalClients.map((p, i) => (
+                <p key={i} className="text-foreground/85 leading-relaxed mb-4">
+                  {p}
+                </p>
+              ))}
+            </div>
+          </Section>
+        ) : null}
+
+        {service.whyChoose?.length ? (
+          <Section title="Why Choose Advocate Barkha Tiwari">
+            <ul className="space-y-3">
+              {service.whyChoose.map((item, i) => (
+                <li key={i} className="flex items-start gap-3">
+                  <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-gold" />
+                  <span className="text-foreground/85 leading-relaxed">
+                    {item}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </Section>
+        ) : null}
+
+        {service.conclusion?.length ? (
+          <Section title="Conclusion">
+            <div className="prose prose-lg max-w-none">
+              {service.conclusion.map((p, i) => (
+                <p key={i} className="text-foreground/85 leading-relaxed mb-4">
+                  {p}
+                </p>
               ))}
             </div>
           </Section>
