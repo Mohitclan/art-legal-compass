@@ -21,6 +21,10 @@ const PcPndtCompliancePage = lazy(() => import("./pages/services/PcPndtComplianc
 const ForeignIntendedParentsPage = lazy(
   () => import("./pages/services/ForeignIntendedParentsPage")
 );
+const BlogListPage = lazy(() => import("./pages/blog/BlogListPage"));
+const BlogPostPage = lazy(() => import("./pages/blog/BlogPostPage"));
+const CountryListPage = lazy(() => import("./pages/country/CountryListPage"));
+const CountryDetailPage = lazy(() => import("./pages/country/CountryDetailPage"));
 
 const queryClient = new QueryClient();
 
@@ -47,6 +51,10 @@ const App = () => (
               <Route path="/legal-acts" element={<LegalActsPage />} />
               <Route path="/associated-centers" element={<AssociatedCentersPage />} />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/blog" element={<BlogListPage />} />
+              <Route path="/blog/:slug" element={<BlogPostPage />} />
+              <Route path="/country" element={<CountryListPage />} />
+              <Route path="/country/:slug" element={<CountryDetailPage />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>
