@@ -6,6 +6,7 @@ import About from "@/components/About";
 import PracticeAreas from "@/components/PracticeAreas";
 import LegalActs from "@/components/LegalActs";
 import Contact from "@/components/Contact";
+import LegalQueryForm from "@/components/LegalQueryForm";
 import { WhyTrustUs, SuccessMetrics, TrustBadges } from "@/components/authority/TrustSignals";
 import Disclaimers from "@/components/authority/Disclaimers";
 
@@ -29,6 +30,7 @@ const Index = () => {
       <TrustBadges />
       <LegalActs />
       <Contact />
+      <LegalQueryForm />
       <Disclaimers />
     </>
   );
