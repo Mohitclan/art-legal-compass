@@ -160,7 +160,7 @@ const LegalQueryForm = () => {
               minLength={20}
               value={values.message}
               onChange={update("message")}
-              className={`${inputCls} resize-y`}
+              className="w-full px-4 py-3 rounded-md border border-border bg-background text-foreground outline-none focus:border-gold transition-colors resize-y"
             />
           </Field>
 
