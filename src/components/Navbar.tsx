@@ -98,6 +98,13 @@ const Navbar = () => {
                 Legal Acts
               </Link>
               <Link
+                to="/blog"
+                onClick={() => trackNavClick("Blog", "/blog")}
+                className={linkCls}
+              >
+                Blog
+              </Link>
+              <Link
                 to="/associated-centers"
                 onClick={() => trackNavClick("Associated Centers", "/associated-centers")}
                 className={linkCls}
