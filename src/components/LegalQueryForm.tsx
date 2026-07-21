@@ -3,8 +3,7 @@ import { MessageSquare } from "lucide-react";
 import { z } from "zod";
 import { toast } from "@/hooks/use-toast";
 
-// Replace YOUR_CLIENT_EMAIL with the client's real address before deploy.
-const FORMSUBMIT_ENDPOINT = "https://formsubmit.co/YOUR_CLIENT_EMAIL";
+const FORMSUBMIT_ENDPOINT = "https://formsubmit.co/infertilitylegalsolutions@gmail.com";
 
 const schema = z.object({
   name: z.string().trim().min(2, "Please enter your full name").max(100),
