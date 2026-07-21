@@ -1,5 +1,6 @@
 import SEO from "@/components/SEO";
 import Contact from "@/components/Contact";
+import LegalQueryForm from "@/components/LegalQueryForm";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { buildBreadcrumbSchema } from "@/lib/seo";
 
@@ -25,6 +26,7 @@ const ContactPage = () => {
         </div>
       </div>
       <Contact />
+      <LegalQueryForm />
     </>
   );
 };
