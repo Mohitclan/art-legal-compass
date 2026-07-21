@@ -9,7 +9,7 @@ const QuerySuccessPage = () => {
         title="Query Received | Infertility Legal Solutions"
         description="Thank you for contacting Advocate Barkha Dwivedi. Your legal query has been received."
         path="/query-success"
-        noindex
+        robots="noindex, follow"
       />
       <section className="min-h-[70vh] flex items-center justify-center py-24 bg-secondary/30">
         <div className="container mx-auto px-6 max-w-2xl text-center">
