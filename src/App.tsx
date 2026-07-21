@@ -25,6 +25,7 @@ const BlogListPage = lazy(() => import("./pages/blog/BlogListPage"));
 const BlogPostPage = lazy(() => import("./pages/blog/BlogPostPage"));
 const CountryListPage = lazy(() => import("./pages/country/CountryListPage"));
 const CountryDetailPage = lazy(() => import("./pages/country/CountryDetailPage"));
+const QuerySuccessPage = lazy(() => import("./pages/QuerySuccessPage"));
 
 const queryClient = new QueryClient();
 
@@ -55,6 +56,7 @@ const App = () => (
               <Route path="/blog/:slug" element={<BlogPostPage />} />
               <Route path="/country" element={<CountryListPage />} />
               <Route path="/country/:slug" element={<CountryDetailPage />} />
+              <Route path="/query-success" element={<QuerySuccessPage />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>
