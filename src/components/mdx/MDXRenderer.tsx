@@ -4,6 +4,7 @@
 
 import type { MDXBlock } from "@/content/types";
 import SmartImage from "@/components/SmartImage";
+import PrefetchLink from "@/components/PrefetchLink";
 
 const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
@@ -24,6 +25,18 @@ const MDXRenderer = ({ blocks }: { blocks: MDXBlock[] }) => (
           </aside>
         );
         case "image": return <SmartImage key={i} src={b.src} alt={b.alt} width={b.width} height={b.height} className="my-6 rounded-md" />;
+        case "links": return (
+          <nav key={i} className="my-6 p-5 rounded-md border-2 border-border bg-secondary/30">
+            {b.title && <p className="font-playfair text-lg font-semibold text-primary mb-3">{b.title}</p>}
+            <ul className="grid sm:grid-cols-2 gap-2">
+              {b.items.map((l, j) => (
+                <li key={j}>
+                  <PrefetchLink to={l.to} className="text-primary hover:text-gold underline underline-offset-4 transition-colors">{l.label}</PrefetchLink>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        );
       }
     })}
   </div>
