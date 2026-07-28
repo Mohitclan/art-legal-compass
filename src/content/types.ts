@@ -21,6 +21,7 @@ export type MDXBlock =
   | { type: "ol"; items: string[] }
   | { type: "quote"; text: string; cite?: string }
   | { type: "callout"; tone?: "info" | "warn"; title?: string; text: string }
+  | { type: "links"; title?: string; items: { label: string; to: string }[] }
   | { type: "image"; src: string; alt: string; width: number; height: number };
 
 export type Category = { slug: string; name: string; description?: string };
