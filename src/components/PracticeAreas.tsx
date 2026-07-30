@@ -1,80 +1,76 @@
-import { FileText, Shield, Building2, BookCheck, Briefcase, Scale } from "lucide-react";
+import { Link } from "react-router-dom";
+import { ArrowRight, Baby, TestTube, Globe2, ClipboardCheck, Landmark } from "lucide-react";
 
 const practiceAreas = [
   {
-    icon: FileText,
-    title: "ART Legal Documentation",
-    description: "Comprehensive Level I & II documentation for Assisted Reproductive Technology",
+    icon: Baby,
+    title: "Surrogacy Law",
+    description: "End-to-end legal support for altruistic surrogacy arrangements in India.",
+    to: "/services/surrogacy-law",
   },
   {
-    icon: Shield,
-    title: "Surrogacy Approvals & Certification",
-    description: "Complete legal support for surrogacy agreements and regulatory compliance",
+    icon: TestTube,
+    title: "IVF & ART Law",
+    description: "Legal guidance for IVF procedures, egg/sperm donation and ART banks.",
+    to: "/services/ivf-legal-services",
   },
   {
-    icon: Building2,
-    title: "IVF & ART Bank Legal Compliance",
-    description: "Ensuring full adherence to legal frameworks for fertility centers",
+    icon: Globe2,
+    title: "Foreign Intended Parents",
+    description: "Assistance for foreign and NRI intended parents navigating Indian law.",
+    to: "/services/foreign-intended-parents",
   },
   {
-    icon: BookCheck,
-    title: "PC & PNDT Legal Advisory",
-    description: "Expert guidance on Pre-Conception and Pre-Natal Diagnostic Techniques Act",
+    icon: ClipboardCheck,
+    title: "PC-PNDT Compliance",
+    description: "Compliance, audits and advisory for clinics under the PC-PNDT Act, 1994.",
+    to: "/services/pc-pndt-compliance",
   },
   {
-    icon: Briefcase,
-    title: "Civil & Corporate Advisory",
-    description: "Holistic legal counsel for healthcare and business entities",
-  },
-  {
-    icon: Scale,
-    title: "Other Legal Matters",
-    description: "Consumer forum representation, civil litigation, and general legal advisory services, etc.",
+    icon: Landmark,
+    title: "ART Act Compliance",
+    description: "Registration and regulatory advisory for fertility clinics and professionals.",
+    to: "/services/art-act-compliance",
   },
 ];
 
-const PracticeAreas = () => {
-  return (
-    <section id="practice-areas" className="py-24 bg-gradient-to-br from-secondary/30 via-background to-secondary/20 relative overflow-hidden">
-      {/* Decorative elements */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-10 right-20 w-64 h-64 bg-gold rounded-full blur-3xl animate-float"></div>
-        <div className="absolute bottom-10 left-20 w-80 h-80 bg-primary rounded-full blur-3xl animate-float" style={{ animationDelay: "2s" }}></div>
+const PracticeAreas = () => (
+  <section id="practice-areas" className="py-20 bg-background">
+    <div className="container mx-auto px-6">
+      <div className="text-center mb-12">
+        <h2 className="font-playfair text-3xl md:text-4xl font-bold text-primary mb-3">
+          Our Practice Areas
+        </h2>
+        <div className="h-1 w-20 bg-gradient-gold mx-auto mb-5" />
+        <p className="text-muted-foreground max-w-2xl mx-auto">
+          Specialised legal services across infertility and reproductive healthcare law.
+        </p>
       </div>
-      
-      <div className="container mx-auto px-6 relative z-10">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-primary mb-4">
-            Practice Areas
-          </h2>
-          <div className="h-1 w-24 bg-gradient-gold mx-auto mb-6"></div>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Specialized legal services for infertility and reproductive healthcare
-          </p>
-        </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {practiceAreas.map((area, index) => (
-            <div
-              key={index}
-              className="bg-card/80 backdrop-blur-sm p-8 rounded-lg shadow-elegant hover:shadow-gold transition-all duration-500 group border-2 border-border hover:border-gold animate-slide-up hover:scale-105"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
-              <div className="w-16 h-16 bg-gradient-gold rounded-full flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-gold">
-                <area.icon className="w-8 h-8 text-primary" />
-              </div>
-              <h3 className="font-playfair text-xl font-semibold text-primary mb-3 group-hover:text-gold transition-colors duration-300">
-                {area.title}
-              </h3>
-              <p className="text-muted-foreground leading-relaxed group-hover:text-foreground transition-colors duration-300">
-                {area.description}
-              </p>
-            </div>
-          ))}
-        </div>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+        {practiceAreas.map((area, i) => (
+          <Link
+            key={area.title}
+            to={area.to}
+            className="group bg-card border border-border rounded-lg p-7 text-center hover:border-gold hover:shadow-elegant hover:-translate-y-1 transition-all duration-300 animate-fade-in"
+            style={{ animationDelay: `${i * 0.08}s` }}
+          >
+            <area.icon className="w-9 h-9 text-gold mx-auto mb-5" strokeWidth={1.4} />
+            <h3 className="font-playfair text-lg font-semibold text-primary mb-2.5">
+              {area.title}
+            </h3>
+            <p className="text-sm text-muted-foreground leading-relaxed mb-5">
+              {area.description}
+            </p>
+            <span className="text-sm font-semibold text-gold inline-flex items-center gap-1.5">
+              Read More
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+            </span>
+          </Link>
+        ))}
       </div>
-    </section>
-  );
-};
+    </div>
+  </section>
+);
 
 export default PracticeAreas;

@@ -2,16 +2,18 @@ import SEO from "@/components/SEO";
 import { homeSchemas } from "@/lib/seo-schemas";
 import { buildPersonSchema, buildOrganizationSchema } from "@/lib/seo";
 import Hero from "@/components/Hero";
+import StatsBar from "@/components/home/StatsBar";
 import About from "@/components/About";
 import PracticeAreas from "@/components/PracticeAreas";
+import WhyAndProcess from "@/components/home/WhyAndProcess";
+import UpdatesAndFaq from "@/components/home/UpdatesAndFaq";
+import ContactBand from "@/components/home/ContactBand";
 import LegalActs from "@/components/LegalActs";
 import Contact from "@/components/Contact";
 import LegalQueryForm from "@/components/LegalQueryForm";
-import { WhyTrustUs, SuccessMetrics, TrustBadges } from "@/components/authority/TrustSignals";
+import { TrustBadges } from "@/components/authority/TrustSignals";
 import Disclaimers from "@/components/authority/Disclaimers";
 
-// Homepage — visually identical to the previous single-page site.
-// SiteLayout renders DisclaimerModal + Navbar + <main> + Footer around it.
 const Index = () => {
   return (
     <>
@@ -23,12 +25,14 @@ const Index = () => {
         jsonLd={[buildOrganizationSchema(), buildPersonSchema(), ...homeSchemas]}
       />
       <Hero />
-      <About />
+      <StatsBar />
       <PracticeAreas />
-      <SuccessMetrics />
-      <WhyTrustUs />
+      <WhyAndProcess />
+      <About />
       <TrustBadges />
+      <UpdatesAndFaq />
       <LegalActs />
+      <ContactBand />
       <Contact />
       <LegalQueryForm />
       <Disclaimers />
