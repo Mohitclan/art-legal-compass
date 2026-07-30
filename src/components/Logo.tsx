@@ -1,4 +1,4 @@
-import logoMark from "@/assets/logo-mark.png.asset.json";
+import logoMark from "@/assets/logo-mark.png";
 
 type Props = { compact?: boolean; className?: string };
 
@@ -6,7 +6,7 @@ const Logo = ({ compact = false, className = "" }: Props) => (
   <span className={`flex items-center gap-3 ${className}`}>
     <span className="w-11 h-11 shrink-0 rounded-full bg-ivory ring-1 ring-gold/50 flex items-center justify-center overflow-hidden">
       <img
-        src={logoMark.url}
+        src={logoMark}
         alt="Barkha Dwivedi Advocate logo"
         width="44"
         height="44"
