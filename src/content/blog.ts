@@ -71,7 +71,7 @@ export const posts: BlogPost[] = [
     updatedAt: "2026-07-28",
     excerpt:
       "A complete 2026 guide to the IVF legal process in India for foreign nationals — eligibility, registered ART clinics, documentation, informed consent, privacy, timelines and common legal pitfalls.",
-    related: ["surrogacy-regulation-act-2021-overview"],
+    related: ["surrogacy-regulation-act-2021-overview", "is-surrogacy-legal-in-india"],
     body: [
       { type: "p", text: "Navigating assisted reproductive technology (ART) in a foreign country involves a combination of medical expertise and legal diligence. For foreign nationals considering In Vitro Fertilization (IVF) in India, understanding the surrounding legal landscape is essential for ensuring a secure, transparent, and compliant treatment journey." },
       { type: "p", text: "In recent years, India's legal framework governing fertility care has undergone significant modernization, most notably with the enforcement of the Assisted Reproductive Technology (Regulation) Act, 2021. This landmark legislation established clear guidelines for registration, patient confidentiality, ethical practices, and consent protocols. Understanding the IVF legal process in India for foreign nationals allows intended parents to make informed decisions, minimize administrative delays, and focus on their path to parenthood." },
