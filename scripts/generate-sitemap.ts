@@ -17,22 +17,20 @@ type Entry = {
   priority?: string;
 };
 
-const today = new Date().toISOString().slice(0, 10);
-
 const staticEntries: Entry[] = [
-  { path: "/", changefreq: "weekly", priority: "1.0", lastmod: today },
-  { path: "/about", changefreq: "monthly", priority: "0.9", lastmod: today },
-  { path: "/services", changefreq: "monthly", priority: "0.9", lastmod: today },
-  { path: "/legal-acts", changefreq: "monthly", priority: "0.8", lastmod: today },
-  { path: "/associated-centers", changefreq: "monthly", priority: "0.7", lastmod: today },
-  { path: "/contact", changefreq: "yearly", priority: "0.8", lastmod: today },
+  // No lastmod: these pages have no authoritative per-page timestamp.
+  { path: "/", changefreq: "weekly", priority: "1.0" },
+  { path: "/about", changefreq: "monthly", priority: "0.9" },
+  { path: "/services", changefreq: "monthly", priority: "0.9" },
+  { path: "/legal-acts", changefreq: "monthly", priority: "0.8" },
+  { path: "/associated-centers", changefreq: "monthly", priority: "0.7" },
+  { path: "/contact", changefreq: "yearly", priority: "0.8" },
 ];
 
 const serviceEntries: Entry[] = services.map((s) => ({
   path: `/services/${s.slug}`,
   changefreq: "monthly",
   priority: "0.9",
-  lastmod: today,
 }));
 
 const blogEntries: Entry[] = posts.map((p) => ({
@@ -46,7 +44,7 @@ const countryEntries: Entry[] = countries.map((c) => ({
   path: `/country/${c.slug}`,
   changefreq: "monthly",
   priority: "0.7",
-  lastmod: today,
+  lastmod: (c.updatedAt || c.publishedAt)?.slice(0, 10),
 }));
 
 const entries = [...staticEntries, ...serviceEntries, ...blogEntries, ...countryEntries];
