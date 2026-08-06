@@ -585,6 +585,217 @@ export const posts: BlogPost[] = [
       { q: "Where should intended parents seek professional legal assistance?", a: "Intended parents should consult an experienced fertility lawyer specialising in Indian ART laws, surrogacy compliance and parentage documentation. Advocate Barkha Dwivedi advises on these matters — request a consultation through the contact page." },
     ],
   },
+  {
+    slug: "documents-required-for-surrogacy-in-india",
+    title: "Documents Required for Surrogacy in India (2026): Complete Legal Checklist",
+    description:
+      "Discover all the documents required for surrogacy in India, including legal paperwork, medical records, consent forms, surrogacy agreements, and compliance under the Surrogacy (Regulation) Act, 2021.",
+    keywords: [
+      "documents required for surrogacy in india",
+      "surrogacy documents",
+      "legal documents for surrogacy",
+      "surrogacy agreement india",
+      "surrogacy process in india",
+      "surrogacy laws in india",
+      "surrogacy lawyer india",
+      "art act 2021",
+      "surrogacy regulation act 2021",
+      "intended parents documents",
+      "fertility law india",
+    ],
+    category: "surrogacy",
+    tags: ["documentation", "compliance", "eligibility"],
+    author: "barkha-dwivedi",
+    publishedAt: "2026-08-06",
+    updatedAt: "2026-08-06",
+    hero: {
+      src: "/blog/documents-required-for-surrogacy-in-india.jpg",
+      alt: "Documents Required for Surrogacy in India — legal checklist for intended parents",
+      width: 1200,
+      height: 630,
+    },
+    excerpt:
+      "A complete legal checklist of the documents required for surrogacy in India — identity and civil records, medical evaluations, District Medical Board certificates, affidavits, consent forms, the surrogacy agreement, 36-month insurance and post-birth parentage filings.",
+    related: ["surrogacy-process-in-india", "is-surrogacy-legal-in-india", "ivf-legal-process-india-for-foreign-nationals"],
+    body: [
+      { type: "p", text: "Understanding the documents required for surrogacy in India is one of the most critical steps before beginning your family-building journey. While medical treatment receives significant attention, the legal documentation required under Indian law is equally vital. Missing or incomplete paperwork can delay approvals, create administrative hurdles, or prevent a surrogacy arrangement from moving forward altogether." },
+      { type: "p", text: "The Surrogacy (Regulation) Act, 2021 and the Assisted Reproductive Technology (Regulation) Act, 2021 establish a strict framework governing surrogacy in India. These laws protect intended parents, surrogate mothers, and children born through surrogacy by requiring proper legal documentation and regulatory compliance." },
+      { type: "p", text: "Whether you are an intended parent, a healthcare coordinator, or a legal professional, understanding the required paperwork is essential before initiating any clinical steps. This guide provides a comprehensive checklist of the identity papers, legal certificates, eligibility approvals, declarations and agreements required for a compliant surrogacy arrangement in India." },
+
+      { type: "h2", text: "Why legal documentation matters", id: "why-documentation-matters" },
+      { type: "p", text: "Every legal document serves a distinct purpose during the surrogacy process in India. Proper documentation helps:" },
+      { type: "ul", items: [
+        "Verify eligibility — confirm that intended parents meet statutory age, marital and medical criteria.",
+        "Protect stakeholders — safeguard the health, financial security and bodily autonomy of the surrogate mother.",
+        "Ensure compliance — align all procedures with the Surrogacy (Regulation) Act, 2021 and the ART Act, 2021.",
+        "Mitigate legal risk — prevent future disputes over legal custody, financial liability or parental rights.",
+        "Facilitate clinical care — enable registered ART clinics to proceed with embryo transfer and treatment lawfully.",
+        "Establish legal parentage — allow seamless issuance of birth certificates and court orders confirming parentage.",
+      ] },
+      { type: "p", text: "The objective of these requirements is not merely administrative. They ensure that surrogacy arrangements remain transparent, ethical and fully protected under applicable law." },
+
+      { type: "h2", text: "Legal framework governing surrogacy documentation", id: "legal-framework" },
+      { type: "p", text: "Before compiling your paperwork, it is essential to understand the governing statutory framework. The primary legislation includes:" },
+      { type: "ul", items: [
+        "Surrogacy (Regulation) Act, 2021 — regulates eligibility, altruistic requirements, surrogate protections and District Medical Board approvals.",
+        "Assisted Reproductive Technology (Regulation) Act, 2021 — governs fertility clinics, embryology laboratories, gamete handling and National ART Registry tracking.",
+        "Applicable government notifications and rules — administrative rules, court rulings and gazette notifications issued by the Ministry of Health and Family Welfare.",
+      ] },
+      { type: "p", text: "Together, these frameworks govern record-keeping, statutory disclosures, clinic operations and parentage declarations." },
+
+      { type: "h2", text: "Primary categories of required documents", id: "categories" },
+      { type: "p", text: "The documents required for surrogacy in India fall into distinct statutory and operational categories: identity and address proofs, civil status records, clinical medical evaluations, statutory board approvals, and legal contracts with insurance." },
+
+      { type: "h3", text: "1. Identity and address documents" },
+      { type: "p", text: "Identity documents establish the legal standing of the intended parents and the surrogate mother." },
+      { type: "ul", items: [
+        "Passport or national identity cards — valid photo identification for all parties.",
+        "Government identity cards — official government-issued identity documents.",
+        "Proof of residence — certified utility bills, bank statements or official residential records establishing permanent address details.",
+      ] },
+
+      { type: "h3", text: "2. Civil and marital documentation" },
+      { type: "p", text: "Where required by applicable law, intended parents must provide clear evidence of civil status." },
+      { type: "ul", items: [
+        "Marriage certificate — government-registered marriage documentation for married couples.",
+        "Proof of dissolution or loss — legally verified divorce decrees or death certificates for eligible single intending women who are divorced or widowed.",
+      ] },
+
+      { type: "h3", text: "3. Medical and diagnostic records" },
+      { type: "p", text: "Comprehensive medical records demonstrate the clinical necessity for surrogacy." },
+      { type: "ul", items: [
+        "Diagnostic reports confirming underlying fertility or physical conditions precluding natural gestation.",
+        "Clinical assessments and laboratory evaluations executed by registered medical specialists.",
+        "Formal fertility evaluations supporting the recommendation for assisted reproductive technology.",
+      ] },
+
+      { type: "h2", text: "Statutory certificates, approvals and agreements", id: "statutory-certificates" },
+      { type: "p", text: "Moving beyond foundational identity records, specific legal certificates and statutory approvals must be obtained before clinical procedures can commence." },
+
+      { type: "h3", text: "4. Certificate of medical indication" },
+      { type: "p", text: "Issued by qualified medical professionals following detailed clinical evaluation, this certificate documents the specific medical necessity requiring surrogacy under the statutory framework." },
+
+      { type: "h3", text: "5. Certificate of eligibility" },
+      { type: "p", text: "Issued by the appropriate competent authority, the certificate of eligibility confirms that the intended parents fulfil all statutory conditions, including age limits, marital status and citizenship or residence requirements." },
+
+      { type: "h3", text: "6. Certificate of essentiality" },
+      { type: "p", text: "The essentiality certificate confirms that the proposed surrogacy arrangement fulfils all statutory preconditions under the Surrogacy (Regulation) Act, 2021, authorising the registered clinic to proceed." },
+
+      { type: "h3", text: "7. Affidavits and declarations" },
+      { type: "p", text: "A series of sworn affidavits must be submitted to authorities and medical centres to confirm:" },
+      { type: "ul", items: [
+        "Truthfulness and accuracy of all submitted identity and civil records.",
+        "Explicit declaration of an altruistic arrangement, confirming zero commercial transaction.",
+        "Compliance with statutory prohibitions and consent conditions.",
+      ] },
+
+      { type: "h3", text: "8. Statutory consent forms" },
+      { type: "p", text: "Informed consent forms must be executed in the primary language understood by the signee. These cover:" },
+      { type: "ul", items: [
+        "Clinical ART protocols, embryo creation and transfer risks.",
+        "Confidentiality, diagnostic data management and medical privacy.",
+        "Storage and handling parameters for gametes or embryos.",
+      ] },
+
+      { type: "h3", text: "9. The surrogacy agreement" },
+      { type: "p", text: "The surrogacy agreement is the core legal instrument governing the relationship between the intended parents, the surrogate mother and the clinical facility. Professionally drafted by a specialised surrogacy lawyer, the agreement defines:" },
+      { type: "ul", items: [
+        "Legal rights, obligations and physical custody expectations.",
+        "Medical care protocols, hospitalisation plans and dietary or living support allowances permitted under altruistic rules.",
+        "Insurance coverage details and emergency clinical protocols.",
+        "Post-birth parentage filings and birth registration procedures.",
+      ] },
+
+      { type: "h3", text: "10. Mandatory health insurance documentation" },
+      { type: "p", text: "Under the 2021 Act, intended parents must secure an IRDAI-approved 36-month health insurance policy for the surrogate mother. Documentation includes:" },
+      { type: "ul", items: [
+        "Policy schedule and validity confirmation covering 36 months.",
+        "Coverage details for postpartum medical complications, delivery risks and clinical care.",
+        "Official beneficiary designations and policy endorsements.",
+      ] },
+
+      { type: "h2", text: "Post-transfer and birth documentation", id: "post-birth" },
+      { type: "p", text: "Proper record-keeping continues throughout pregnancy and through delivery." },
+      { type: "ul", items: [
+        "Gestational records — ultrasound scans, blood work reports, specialist consultation notes and hospital admission logs.",
+        "Delivery and hospital discharge papers — formal birth record files and clinical discharge summaries from the medical facility.",
+        "Birth registration and parentage orders — filings with municipal authorities to secure the official birth certificate listing the intended parents as the exclusive legal parents under Section 8 of the Surrogacy Act.",
+      ] },
+
+      { type: "h2", text: "Organising your surrogacy file", id: "folder-structure" },
+      { type: "p", text: "To ensure smooth review by medical boards, legal counsel and registered clinics, maintain your paperwork using an organised folder system:" },
+      { type: "ol", items: [
+        "Folder 1 — Identity and civil status: passports, government identity cards, marriage, divorce or death certificates.",
+        "Folder 2 — Residential proofs: registered address documents and utility statements.",
+        "Folder 3 — Medical evaluations: infertility reports, lab assessments and specialist indications.",
+        "Folder 4 — Statutory approvals: District Medical Board eligibility and essentiality certificates, sworn affidavits.",
+        "Folder 5 — Legal agreements: fully executed surrogacy agreement and informed consent forms.",
+        "Folder 6 — Insurance and finance: 36-month IRDAI policy schedule and medical expense records.",
+        "Folder 7 — Prenatal and delivery: ultrasounds, obstetric logs and birth registration filings.",
+      ] },
+
+      { type: "h2", text: "Common documentation mistakes to avoid", id: "common-mistakes" },
+      { type: "ul", items: [
+        "Information discrepancies — name spelling variations, date of birth mismatches or address differences across identity cards cause significant administrative delays.",
+        "Missing signatures or attestations — affidavits and consent forms without proper notarisation, signatures or language attestations are rejected by authorities.",
+        "Using generic templates — downloaded online agreement templates fail to account for updated rules or individual case nuances, creating severe legal risk.",
+        "Initiating clinical cycles early — undergoing embryo transfer before securing formal District Medical Board approvals violates statutory provisions.",
+        "Incomplete insurance filings — purchasing standard health insurance instead of the mandatory 36-month IRDAI-compliant policy tailored for surrogacy.",
+      ] },
+
+      { type: "h2", text: "Practical pre-surrogacy documentation checklist", id: "checklist" },
+      { type: "p", text: "Before proceeding with clinical steps, confirm that you have completed every item:" },
+      { type: "ul", items: [
+        "Valid government-issued photo ID and address proofs for all parties.",
+        "Government-registered marriage certificate, or legal divorce or death certificate if applicable.",
+        "Comprehensive medical evaluation and fertility indication reports.",
+        "Certificate of essentiality and certificate of eligibility from the District Medical Board.",
+        "36-month IRDAI-compliant insurance policy documentation for the surrogate mother.",
+        "Sworn statutory affidavits executed before an authorised magistrate or notary.",
+        "Fully executed informed consent forms in the primary languages of the signees.",
+        "Legally drafted surrogacy agreement reviewed by an experienced surrogacy lawyer.",
+        "Secure physical and digital backup folders containing all submitted records.",
+      ] },
+
+      { type: "callout", tone: "warn", title: "Do not rely on generic templates", text: "Generic online surrogacy agreements rarely comply with current statutory provisions or local board requirements, and can compromise the legal standing of your entire arrangement. Have your agreement drafted or reviewed by a specialist fertility lawyer." },
+
+      { type: "links", title: "Recommended reading", items: [
+        { label: "Surrogacy Process in India (2026 Complete Guide)", to: "/blog/surrogacy-process-in-india" },
+        { label: "Is Surrogacy Legal in India? (2026 Legal Status)", to: "/blog/is-surrogacy-legal-in-india" },
+        { label: "Surrogacy (Regulation) Act, 2021 Explained", to: "/blog/surrogacy-regulation-act-2021-overview" },
+        { label: "ART Act 2021 Compliance & Legal Requirements", to: "/services/art-act-compliance" },
+        { label: "IVF Legal Process for Foreign Nationals & NRIs", to: "/blog/ivf-legal-process-india-for-foreign-nationals" },
+        { label: "Surrogacy Law Services", to: "/services/surrogacy-law" },
+        { label: "IVF Legal Services", to: "/services/ivf-legal-services" },
+        { label: "Canada-Based Intended Parents Guide", to: "/country/canada" },
+        { label: "USA-Based Intended Parents Guide", to: "/country/usa" },
+        { label: "About Advocate Barkha Dwivedi", to: "/about" },
+        { label: "Contact Us", to: "/contact" },
+      ] },
+
+      { type: "h2", text: "Conclusion and legal guidance", id: "conclusion" },
+      { type: "p", text: "Preparing the documents required for surrogacy in India is one of the most critical legal steps in your family-building journey. While medical care takes centre stage during treatment, accurate documentation provides the foundation that protects your parental rights and ensures full legal compliance." },
+      { type: "p", text: "By organising your files early, understanding statutory board requirements and working alongside qualified medical and legal professionals, you can navigate the surrogacy process with clarity and peace of mind." },
+      { type: "p", text: "Advocate Barkha Dwivedi specialises in fertility law, assisted reproductive technology compliance and surrogacy legal documentation in India. She assists intended parents in evaluating eligibility, preparing medical board applications, drafting compliant surrogacy agreements and securing post-birth parentage recognition. Book a legal consultation through the contact page to review your surrogacy documentation and receive tailored legal guidance." },
+    ],
+    faqs: [
+      { q: "What documents are required for surrogacy in India?", a: "The core documents include government identity proofs, address documents, civil status records such as marriage or divorce certificates, diagnostic medical reports, District Medical Board eligibility and essentiality certificates, affidavits, consent forms, a 36-month insurance policy and a legally drafted surrogacy agreement." },
+      { q: "Is a surrogacy agreement mandatory under Indian law?", a: "Yes. A surrogacy agreement is a fundamental legal requirement. It outlines the obligations, medical care standards, altruistic expense parameters and legal custody framework while ensuring full alignment with the Surrogacy (Regulation) Act, 2021." },
+      { q: "Why are medical records reviewed during the approval process?", a: "Medical records confirm the clinical necessity for surrogacy. District Medical Boards review diagnostic evaluations to ensure that treatment meets the statutory definition of medical indication before granting approvals." },
+      { q: "What is the role of the Surrogacy (Regulation) Act, 2021?", a: "The Act sets the legal framework for surrogacy in India, defining eligibility, banning commercial surrogacy, protecting surrogate mothers and establishing the approval process through National and State Surrogacy Boards." },
+      { q: "How does the ART Act, 2021 affect surrogacy documentation?", a: "Because surrogacy involves IVF and embryo transfer, the ART (Regulation) Act, 2021 governs clinic registrations, embryology laboratory standards, gamete donor protocols and registry logging." },
+      { q: "Why should intended parents organise documentation before treatment?", a: "Organising paperwork in advance prevents clinical halts, ensures faster medical board approvals, simplifies clinic intake and avoids legal delays during birth registration." },
+      { q: "Can minor documentation errors delay the surrogacy process?", a: "Yes. Minor discrepancies such as name misspellings, un-notarised affidavits or missing pages can lead to rejections or re-submissions at the medical board or registry level." },
+      { q: "Are identity documents required for both intended parents?", a: "Yes. Both intending spouses, or the eligible single intending woman, must submit verified identity, residential and civil status documentation." },
+      { q: "Who must issue the medical reports required for surrogacy?", a: "Medical reports must be issued by registered medical practitioners and specialised fertility clinicians practising at accredited facilities." },
+      { q: "Why should a surrogacy agreement be drafted by a legal specialist?", a: "A specialised surrogacy lawyer ensures the contract incorporates current statutory rules, protects parental rights, structures compliant altruistic support and withstands judicial scrutiny during post-birth filings." },
+      { q: "What are the most common documentation errors?", a: "Common errors include mismatched personal details across IDs, expired documents, reliance on unverified internet agreement templates, incomplete medical histories and missing signatures." },
+      { q: "Do surrogacy document requirements change over time?", a: "Yes. Rules, administrative procedures and judicial interpretations evolve. Intended parents should consult experienced legal counsel to ensure compliance with the latest regulations." },
+      { q: "Why is long-term record-keeping important?", a: "Maintaining organised digital and physical records simplifies communication with healthcare providers, assists during birth registration and provides a clear legal file if required for future passport or travel documentation." },
+      { q: "Should intended parents use generic online surrogacy templates?", a: "No. Generic templates rarely comply with specific statutory provisions or local board requirements, and using them can compromise the legal standing of the surrogacy arrangement." },
+      { q: "Where should intended parents seek professional legal guidance?", a: "Intended parents should consult an experienced fertility lawyer specialising in Indian ART and surrogacy legislation. Advocate Barkha Dwivedi advises on these matters — request a consultation through the contact page." },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
