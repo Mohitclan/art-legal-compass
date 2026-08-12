@@ -24,7 +24,8 @@ const BlogListPage = () => {
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return posts.filter((p) => {
+    const sorted = [...posts].sort((a, b) => (b.updatedAt || b.publishedAt).localeCompare(a.updatedAt || a.publishedAt));
+    return sorted.filter((p) => {
       if (category && p.category !== category) return false;
       if (tag && !p.tags.includes(tag)) return false;
       if (!q) return true;
