@@ -52,7 +52,6 @@ export const posts: BlogPost[] = [
     ],
   },
   {
-  {
     slug: "ivf-legal-process-india-for-foreign-nationals",
     title: "IVF Treatment in India for Foreigners (2026): Legal Process & Rules",
     description:
