@@ -827,6 +827,204 @@ export const posts: BlogPost[] = [
       { q: "Where should intended parents seek professional legal guidance?", a: "Intended parents should consult an experienced fertility lawyer specialising in Indian ART and surrogacy legislation. Advocate Barkha Dwivedi advises on these matters — request a consultation through the contact page." },
     ],
   },
+  {
+    slug: "ivf-cost-in-india",
+    title: "IVF Cost in India 2026: Complete Guide to Expenses, Tests & Laws",
+    description:
+      "Planning IVF treatment in India? Learn about complete IVF costs, medication fees, ICSI charges, embryo storage, city-wise prices, and ART Act legal rules.",
+    keywords: [
+      "ivf cost in india",
+      "ivf treatment cost in india",
+      "cost of ivf treatment in india",
+      "ivf price in india",
+      "ivf cost per cycle in india",
+      "ivf expenses in india",
+      "ivf treatment expenses",
+      "ivf medicines cost",
+      "fertility treatment cost in india",
+      "ivf procedure cost",
+      "ivf clinic cost",
+      "art act 2021",
+    ],
+    category: "ivf",
+    tags: ["clinics", "compliance", "documentation"],
+    author: "barkha-dwivedi",
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-08-18",
+    hero: {
+      src: "/blog/ivf-cost-in-india.jpg",
+      alt: "IVF cost in India 2026 — treatment expenses, tests and ART Act legal considerations",
+      width: 1200,
+      height: 630,
+    },
+    excerpt:
+      "A full breakdown of IVF cost in India — consultation, diagnostics, stimulation injections, egg retrieval, embryology, transfer, ICSI, freezing and PGT — plus city-wise price ranges, hidden charges and your legal protections under the ART Act, 2021.",
+    related: ["ivf-legal-process-india-for-foreign-nationals", "documents-required-for-surrogacy-in-india", "surrogacy-process-in-india"],
+    body: [
+      { type: "p", text: "For couples navigating fertility challenges, asking \u201CWhat is the IVF cost in India?\u201D is almost always the first step. However, there is no single fixed figure that applies to every patient across the country." },
+      { type: "p", text: "The total IVF treatment cost in India varies significantly based on the clinic, medical centre location, clinical protocol, medication dosages, diagnostic testing, advanced laboratory procedures, and the number of cycles required. A low advertised IVF price in India often reflects only a base clinical package \u2014 excluding essentials like stimulation injections, advanced embryology procedures, or embryo freezing." },
+      { type: "p", text: "This comprehensive guide breaks down every cost component of IVF treatment in India, compares city-wise expenses, uncovers hidden charges, explains the regulatory protections under the Assisted Reproductive Technology (Regulation) Act, 2021, and outlines critical legal considerations for intended parents." },
+
+      { type: "h2", text: "What is IVF and how does the treatment cycle work?", id: "what-is-ivf" },
+      { type: "p", text: "In-vitro fertilisation (IVF) is an assisted reproductive procedure where fertilisation occurs outside the human body in a specialised embryology laboratory. A standard IVF treatment cycle comprises distinct clinical stages:" },
+      { type: "ol", items: [
+        "Initial assessment \u2014 comprehensive fertility screening for both partners.",
+        "Ovarian stimulation \u2014 hormone injections to develop multiple mature eggs.",
+        "Follicular monitoring \u2014 sequential ultrasounds and blood work to track egg growth.",
+        "Egg retrieval (oocyte pick-up) \u2014 a minor surgical procedure to collect eggs.",
+        "Sperm processing \u2014 sample collection and laboratory preparation.",
+        "In-vitro fertilisation \u2014 combining eggs and sperm in the lab, or using ICSI.",
+        "Embryo culture \u2014 growing embryos over 3 to 5 days, up to blastocyst stage.",
+        "Embryo transfer \u2014 placing the viable embryo into the uterus.",
+        "Luteal support and pregnancy testing \u2014 hormonal support followed by a Beta-hCG blood test.",
+      ] },
+      { type: "p", text: "Because every individual\u2019s medical profile differs, the cost of IVF treatment in India is tailored specifically to the patient\u2019s individual treatment plan." },
+
+      { type: "h2", text: "Breakdown of main IVF cost components", id: "cost-breakdown" },
+      { type: "p", text: "Understanding total IVF expenses in India requires looking at the step-by-step financial breakdown rather than relying on a headline package price." },
+
+      { type: "h3", text: "1. Initial consultation" },
+      { type: "p", text: "The journey starts with a specialist evaluation. The IVF consultation cost ranges between \u20B91,000 and \u20B93,000 per session, depending on the doctor\u2019s experience and the clinic\u2019s reputation." },
+
+      { type: "h3", text: "2. Diagnostic testing and fertility screening" },
+      { type: "p", text: "Before treatment, both partners must undergo mandatory medical evaluations. Screening expenses range from \u20B915,000 to \u20B935,000 and typically include:" },
+      { type: "ul", items: [
+        "Female tests \u2014 Anti-M\u00FCllerian Hormone (AMH), thyroid profile, prolactin, transvaginal ultrasound (TVUS), tubal patency tests (HSG) and viral markers.",
+        "Male tests \u2014 semen analysis, sperm DNA fragmentation index (DFI) and infectious disease screening.",
+      ] },
+
+      { type: "h3", text: "3. Ovarian stimulation medications" },
+      { type: "p", text: "The IVF medicines cost represents one of the largest variables in the total budget. Ovarian stimulation requires gonadotropin injections (FSH, LH, hMG) over 10\u201314 days." },
+      { type: "ul", items: [
+        "IVF injection cost \u2014 recombinant or highly purified hormone injections range between \u20B940,000 and \u20B990,000 per cycle.",
+        "Dosage factors \u2014 women with low ovarian reserve or high body mass index (BMI) require higher dosages, which increases medication costs.",
+      ] },
+
+      { type: "h3", text: "4. Follicular monitoring" },
+      { type: "p", text: "Tracking egg maturation involves 4 to 6 serial ultrasound scans and hormonal blood tests (E2, progesterone, LH). Monitoring fees usually total \u20B910,000 to \u20B920,000, unless bundled into an all-inclusive package." },
+
+      { type: "h3", text: "5. Egg retrieval procedure" },
+      { type: "p", text: "The egg retrieval procedure uses ultrasound-guided needle aspiration under light anaesthesia. The IVF procedure cost for retrieval \u2014 including operation theatre charges, embryologist fees and anaesthesiologist fees \u2014 ranges between \u20B930,000 and \u20B950,000." },
+
+      { type: "h3", text: "6. Fertilisation and embryo culture" },
+      { type: "p", text: "Conventional fertilisation (mixing eggs and sperm in a petri dish) is included in basic IVF packages. Standard laboratory culture fees range from \u20B925,000 to \u20B940,000. Advanced techniques such as extended culture to Day 5 (blastocyst stage) incur additional charges of \u20B915,000 to \u20B925,000." },
+
+      { type: "h3", text: "7. Embryo transfer" },
+      { type: "p", text: "Transferring fresh embryos into the uterus costs between \u20B920,000 and \u20B935,000. If the transfer is deferred due to hormonal imbalance or a thin uterine lining, a frozen embryo transfer (FET) will be conducted in a subsequent cycle." },
+
+      { type: "h3", text: "8. Pregnancy testing and post-transfer medication" },
+      { type: "p", text: "Following embryo transfer, hormonal support (progesterone gels, injections or oral tablets) is required for 14 days until the Beta-hCG blood test. Post-transfer medications and tests cost approximately \u20B98,000 to \u20B915,000." },
+
+      { type: "h2", text: "Advanced procedures: additional expenses", id: "advanced-procedures" },
+      { type: "p", text: "Depending on medical indications, additional specialised laboratory techniques may be required, which add to the IVF clinic cost:" },
+      { type: "ul", items: [
+        "ICSI (intracytoplasmic sperm injection) \u2014 for severe male factor infertility, low sperm motility or past fertilisation failure: \u20B920,000 \u2013 \u20B945,000.",
+        "FET (frozen embryo transfer) \u2014 for OHSS risk, uterine lining preparation or PGT testing: \u20B935,000 \u2013 \u20B965,000.",
+        "Embryo freezing (cryopreservation) \u2014 preserving surplus high-grade embryos for future attempts: \u20B920,000 \u2013 \u20B935,000.",
+        "Annual embryo storage \u2014 ongoing cryogenic tank storage: \u20B912,000 \u2013 \u20B925,000 per year.",
+        "PGT-A / PGT-M genetic testing \u2014 screening embryos for chromosomal abnormalities or genetic disease: \u20B915,000 \u2013 \u20B925,000 per embryo.",
+        "Laser-assisted hatching (LAH) \u2014 thick zona pellucida or previous implantation failure: \u20B915,000 \u2013 \u20B925,000.",
+        "Micro-TESE / TESA \u2014 surgical sperm retrieval in azoospermia cases: \u20B925,000 \u2013 \u20B950,000.",
+      ] },
+
+      { type: "h2", text: "IVF cost comparison across major Indian cities", id: "city-comparison" },
+      { type: "p", text: "The average fertility treatment cost in India varies by city and infrastructure tier. Metropolitan areas feature state-of-the-art embryology labs and experienced specialists, resulting in slightly higher base costs." },
+      { type: "ul", items: [
+        "Delhi NCR (Delhi, Gurgaon, Noida) \u2014 \u20B91,25,000 \u2013 \u20B92,20,000 per cycle",
+        "Mumbai \u2014 \u20B91,40,000 \u2013 \u20B92,50,000 per cycle",
+        "Bengaluru \u2014 \u20B91,30,000 \u2013 \u20B92,30,000 per cycle",
+        "Hyderabad \u2014 \u20B91,20,000 \u2013 \u20B92,10,000 per cycle",
+        "Chennai \u2014 \u20B91,15,000 \u2013 \u20B92,00,000 per cycle",
+        "Kolkata \u2014 \u20B91,10,000 \u2013 \u20B91,90,000 per cycle",
+        "Pune \u2014 \u20B91,20,000 \u2013 \u20B92,05,000 per cycle",
+        "Ahmedabad \u2014 \u20B91,05,000 \u2013 \u20B91,85,000 per cycle",
+      ] },
+      { type: "callout", tone: "info", title: "What these figures cover", text: "These estimates cover basic clinical procedures per cycle and exclude medications, advanced genetic testing and donor fees." },
+
+      { type: "h2", text: "Advertised package price vs actual out-of-pocket expenses", id: "package-vs-actual" },
+      { type: "p", text: "A major pitfall for patients is confusing an advertised promotional price with the total cost of treatment. Clinics may market an IVF price in India starting as low as \u20B979,000 or \u20B999,000 \u2014 but these promotional offers often exclude essential components." },
+      { type: "p", text: "A typical \u20B990,000 advertised package includes egg retrieval, standard laboratory fertilisation and a fresh transfer. Charged separately, and frequently overlooked, are:" },
+      { type: "ul", items: [
+        "Ovarian stimulation injections \u2014 \u20B950,000 \u2013 \u20B980,000",
+        "Diagnostic blood tests and ultrasounds \u2014 around \u20B920,000",
+        "ICSI procedure \u2014 around \u20B930,000",
+        "Embryo freezing and storage \u2014 around \u20B930,000",
+        "Post-transfer medications \u2014 around \u20B910,000",
+      ] },
+      { type: "p", text: "The actual total out-of-pocket expense in this scenario works out to roughly \u20B92,30,000 \u2013 \u20B92,60,000." },
+      { type: "callout", tone: "warn", title: "Get a line-item quotation in writing", text: "Always request a comprehensive, line-item written quotation before signing treatment agreements or initiating hormonal injections." },
+
+      { type: "h2", text: "Legal provisions under the ART Act, 2021 and transparency requirements", id: "art-act-provisions" },
+      { type: "p", text: "Assisted reproduction in India is strictly regulated by the Assisted Reproductive Technology (Regulation) Act, 2021, which came into force on 25 January 2022. The law establishes clear duties regarding transparency, consent and financial disclosures:" },
+      { type: "ul", items: [
+        "Mandatory statutory counselling (Section 21) \u2014 ART clinics must counsel intended parents on procedures, realistic success rates, side effects, physical risks and itemised costs before starting treatment.",
+        "Written informed consent (Section 22) \u2014 all clinical steps, including gamete extraction, fertilisation, embryo freezing and future disposal, require explicit written consent in a language the patient understands.",
+        "Registration and compliance \u2014 services may only be delivered by ART clinics and ART banks registered under the National ART Registry. Unregistered facilities are illegal.",
+        "Mandatory insurance for gamete donors \u2014 where an oocyte donor is involved, the commissioning couple must secure an insurance policy covering the donor for 12 months against medical complications.",
+        "Ban on commercialisation and sex selection \u2014 sex determination (PC-PNDT Act) and commercial trading of human embryos or gametes are strictly prohibited, carrying severe penal sanctions including imprisonment.",
+      ] },
+
+      { type: "h2", text: "Essential IVF cost and financial planning checklist", id: "checklist" },
+      { type: "p", text: "Use this structured checklist when evaluating fertility clinics, and ask the clinic to confirm in writing whether each item is included in the package or charged separately:" },
+      { type: "ol", items: [
+        "Initial specialist consultations",
+        "Baseline diagnostic blood tests and scans",
+        "Hormonal injections and stimulation drugs",
+        "Serial follicular ultrasound monitoring",
+        "Egg retrieval and operating theatre charges",
+        "Anaesthesiologist and clinical team fees",
+        "Standard IVF or ICSI fertilisation",
+        "Blastocyst culture (Day 5 extended culture)",
+        "Embryo transfer procedure",
+        "Post-transfer medication (luteal support)",
+        "Embryo freezing and initial storage fees",
+        "Subsequent frozen embryo transfer (FET)",
+      ] },
+
+      { type: "h2", text: "Important legal distinctions: IVF vs surrogacy", id: "ivf-vs-surrogacy" },
+      { type: "p", text: "Intended parents must distinguish between routine IVF treatment and surrogacy arrangements:" },
+      { type: "ul", items: [
+        "IVF treatment (ART Act, 2021) \u2014 covers clinical procedures where the intended mother carries the pregnancy. The total expenses are strictly clinical and pharmaceutical.",
+        "Gestational surrogacy (Surrogacy (Regulation) Act, 2021) \u2014 involves a surrogate mother carrying the child. Commercial surrogacy is completely illegal in India; only altruistic surrogacy for eligible Indian married couples is permitted.",
+      ] },
+      { type: "p", text: "Surrogacy involves separate legal frameworks, including State and District Medical Board eligibility certificates, altruistic expense limits, 36-month health insurance policies for surrogates and parentage order filings in court. An advertised IVF cost per cycle in India does not include surrogacy legal processes or statutory compliance." },
+
+      { type: "h2", text: "When should you seek legal counsel in fertility matters?", id: "legal-counsel" },
+      { type: "p", text: "While biological care is handled by medical specialists, fertility arrangements often involve complex legal protocols. Professional legal counsel is recommended when dealing with:" },
+      { type: "ul", items: [
+        "Third-party donor arrangements and egg donor insurance compliance under the ART Act.",
+        "Surrogacy eligibility evaluation, medical board documentation and court filings.",
+        "Parentage rights, legal custody documentation and birth certificate registration.",
+        "Cross-border reproductive governance and immigration clearance for OCI cardholders or foreign nationals.",
+        "Cross-border transport of cryopreserved gametes or embryos under national guidelines.",
+      ] },
+
+      { type: "links", title: "Recommended reading", items: [
+        { label: "IVF Treatment in India for Foreigners (2026)", to: "/blog/ivf-legal-process-india-for-foreign-nationals" },
+        { label: "Documents Required for Surrogacy in India", to: "/blog/documents-required-for-surrogacy-in-india" },
+        { label: "Surrogacy Process in India (2026 Complete Guide)", to: "/blog/surrogacy-process-in-india" },
+        { label: "ART Act 2021 Compliance & Legal Requirements", to: "/services/art-act-compliance" },
+        { label: "IVF Legal Services", to: "/services/ivf-legal-services" },
+        { label: "PC-PNDT Compliance", to: "/services/pc-pndt-compliance" },
+        { label: "About Advocate Barkha Dwivedi", to: "/about" },
+        { label: "Contact Us", to: "/contact" },
+      ] },
+
+      { type: "h2", text: "Need legal guidance for ART and fertility compliance in India?", id: "consultation" },
+      { type: "p", text: "Navigating assisted reproductive treatment requires protecting your legal rights while building your family. Advocate Barkha Dwivedi practises in reproductive healthcare law, ART Act compliance, altruistic surrogacy documentation and legal representation of intended parents across India \u2014 including direct legal counsel under the ART Act, 2021 and the Surrogacy (Regulation) Act, 2021, and audits of treatment consent forms, donor agreements and regulatory clearances." },
+      { type: "p", text: "Contact Advocate Barkha Dwivedi to schedule a confidential legal consultation regarding your fertility journey." },
+    ],
+    faqs: [
+      { q: "What is the average total cost of one complete IVF cycle in India?", a: "A complete IVF cycle \u2014 including diagnostic screening, stimulation injections, egg retrieval, laboratory fertilisation and a fresh embryo transfer \u2014 typically ranges between \u20B91,50,000 and \u20B92,50,000 out-of-pocket." },
+      { q: "Does health insurance cover IVF expenses in India?", a: "Standard health insurance policies in India generally exclude infertility treatment. Some modern corporate plans and specialised riders now offer partial coverage or sub-limits for IVF procedures. Check your policy terms directly with your insurer." },
+      { q: "Does ICSI increase the cost of IVF?", a: "Yes. Intracytoplasmic sperm injection requires specialised micromanipulation equipment and individual sperm selection, adding roughly \u20B920,000 to \u20B945,000 to the base laboratory cost." },
+      { q: "Can an IVF treatment cycle fail, requiring multiple cycles?", a: "Yes. IVF success depends on age, egg quality, uterine receptivity and sperm health. A single cycle does not guarantee pregnancy, so couples should budget for possible frozen embryo transfers or additional stimulation cycles." },
+      { q: "What are the legal requirements for storing embryos in India?", a: "Under Section 22 of the ART Act, 2021, clinics must obtain written informed consent specifying the storage duration and explicit instructions on what happens to surplus embryos in the event of death, divorce or non-payment of storage fees." },
+      { q: "Why do IVF costs differ so much between clinics?", a: "Costs vary with laboratory infrastructure, the experience of the embryology team, medication brands and dosages, city, and whether advanced procedures such as ICSI, blastocyst culture or genetic testing are included in the quoted package." },
+      { q: "Are ART clinics legally required to disclose costs upfront?", a: "Yes. Section 21 of the ART Act, 2021 requires registered clinics to counsel intended parents about procedures, risks, realistic success rates and costs before treatment begins." },
+      { q: "Is commercial surrogacy an option if IVF fails?", a: "No. Commercial surrogacy is prohibited in India. Only altruistic surrogacy is permitted, and only for eligible Indian couples and eligible widows or divorcees under the Surrogacy (Regulation) Act, 2021." },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
