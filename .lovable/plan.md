@@ -10,7 +10,7 @@ Search data for India shows strong, low-competition demand around surrogacy pric
 - "surrogate mother cost in india" — 390/month
 - "how much does surrogacy cost in india" — 210/month
 
-The site already ranks-ready content on IVF cost, surrogacy laws, eligibility, process and documents — this fills the biggest remaining gap and links naturally to all of them.
+Verified against every article currently on the blog (Surrogacy Laws 2026, Is Surrogacy Legal in India, Surrogacy Process, Documents Checklist, Surrogacy Act Overview, IVF Cost, IVF Success Rate, IVF for Foreigners): none of them covers surrogacy pricing. The two laws articles mention costs only briefly. This fills the biggest remaining gap and links naturally to all of them.
 
 ## What gets published
 
