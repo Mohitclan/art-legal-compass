@@ -1762,6 +1762,311 @@ export const posts: BlogPost[] = [
       "is-surrogacy-legal-in-india",
     ],
   },
+  {
+    slug: "egg-freezing-cost-in-india",
+    title: "Egg Freezing Cost in India 2026: Process, Age Limit & Legal Rules",
+    description:
+      "Egg freezing cost in India, the step-by-step process, age limits, storage fees and the legal rules under the ART Act 2021 — explained for women planning fertility preservation.",
+    keywords: [
+      "egg freezing cost in india",
+      "freezing eggs",
+      "what is egg freezing",
+      "egg freezing process",
+      "cost of freezing eggs in india",
+      "egg freezing age limit",
+      "how much does it cost to freeze eggs in india",
+      "egg freezing in mumbai",
+      "sperm freezing cost in india",
+      "oocyte cryopreservation india",
+    ],
+    category: "ivf",
+    tags: ["eligibility", "compliance", "clinics"],
+    author: "barkha-dwivedi",
+    publishedAt: "2026-09-20",
+    updatedAt: "2026-09-20",
+    ogImage: "/blog/egg-freezing-cost-in-india.jpg",
+    hero: {
+      src: "/blog/egg-freezing-cost-in-india.jpg",
+      alt: "Egg freezing cost in India — cryopreservation, process and legal rules under the ART Act 2021",
+      width: 1200,
+      height: 630,
+    },
+    excerpt:
+      "How much does egg freezing cost in India, what the process involves, what age limits and consent rules apply under the ART Act 2021, and the legal checklist every woman should complete before paying a clinic.",
+    body: [
+      {
+        type: "p",
+        text: "Egg freezing — medically called oocyte cryopreservation — has moved from a niche hospital procedure to a mainstream family-planning option in India. Women consider it to preserve fertility while they complete their education, build a career, wait for the right partner, or before medical treatment such as chemotherapy that can damage ovarian reserve. Yet most women researching it face two unanswered questions: how much does it actually cost, and what does Indian law say about it? This guide answers both.",
+      },
+      {
+        type: "p",
+        text: "Egg freezing in India is regulated under the Assisted Reproductive Technology (Regulation) Act, 2021 and the ART (Regulation) Rules, 2022. That legal framework shapes everything from who can freeze eggs and how clinics must take consent, to how long eggs can be stored and what happens to them. Understanding the law before you pay a clinic is as important as understanding the price list.",
+      },
+      {
+        type: "h2",
+        text: "What Is Egg Freezing (Oocyte Cryopreservation)?",
+        id: "what-is-egg-freezing",
+      },
+      {
+        type: "p",
+        text: "Egg freezing is a procedure in which a woman's mature eggs are retrieved from her ovaries, frozen using a rapid-cooling technique called vitrification, and stored at sub-zero temperatures for future use. When the woman is ready to conceive, the eggs are thawed, fertilised with sperm in a laboratory through IVF/ICSI, and the resulting embryo is transferred to the uterus.",
+      },
+      {
+        type: "p",
+        text: "The purpose is to preserve the biological quality of eggs at the age they are frozen. Because egg quality and quantity decline with age — sharply after the mid-thirties — eggs frozen at 30 generally offer better future outcomes than eggs retrieved fresh at 38.",
+      },
+      {
+        type: "h2",
+        text: "Who Considers Egg Freezing in India?",
+        id: "who-considers-egg-freezing",
+      },
+      {
+        type: "ul",
+        items: [
+          "Women who wish to delay childbearing for career, education or personal reasons",
+          "Single women who have not yet found a partner but want to preserve fertility",
+          "Women about to undergo chemotherapy, radiation or surgery that may harm the ovaries",
+          "Women with medical conditions such as endometriosis or a family history of early menopause",
+          "Women with low ovarian reserve who want to bank eggs over multiple cycles",
+        ],
+      },
+      {
+        type: "callout",
+        tone: "info",
+        title: "Single women are permitted",
+        text: "Indian law does not restrict egg freezing to married women. Under the ART Act framework, a single adult woman can access ART services, including oocyte cryopreservation, from a registered ART clinic, subject to consent and documentation requirements.",
+      },
+      {
+        type: "h2",
+        text: "The Egg Freezing Process: Step by Step",
+        id: "egg-freezing-process",
+      },
+      {
+        type: "ol",
+        items: [
+          "Initial consultation and fertility assessment — medical history, AMH blood test for ovarian reserve, and an ultrasound antral follicle count.",
+          "Ovarian stimulation — approximately 10–12 days of hormone injections to stimulate the ovaries to mature multiple eggs in one cycle, with monitoring scans and blood tests.",
+          "Trigger injection and egg retrieval — a short procedure under anaesthesia or sedation in which mature eggs are collected through a fine needle.",
+          "Vitrification and storage — embryologists assess and freeze the mature eggs and store them in liquid nitrogen tanks at a registered ART bank or clinic.",
+          "Future use — when you decide to conceive, the eggs are thawed, fertilised and transferred as embryos in a frozen embryo transfer cycle.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Egg Freezing Cost in India: Full Breakdown",
+        id: "egg-freezing-cost-breakdown",
+      },
+      {
+        type: "p",
+        text: "There is no single fixed price for egg freezing in India. The total cost varies by clinic, city, the woman's response to stimulation (which determines medication doses), and how many years the eggs remain in storage. A complete first-cycle cost is typically built from the following components, presented here only as broad indicative ranges that vary from clinic to clinic and case to case:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Consultation, fertility tests and ultrasound monitoring — the initial assessment and cycle-monitoring component",
+          "Stimulation medications — often the single largest variable, depending on the protocol and doses prescribed",
+          "Egg retrieval procedure — including anaesthesia, operation theatre and embryology lab charges",
+          "Freezing (vitrification) charges — the laboratory cost of cryopreserving the eggs",
+          "Annual storage fees — a recurring yearly charge for as long as the eggs remain frozen",
+        ],
+      },
+      {
+        type: "p",
+        text: "Because medication requirements differ widely between patients, two women at the same clinic can receive materially different bills. Always ask for a written, itemised estimate that separates the procedure cost from medication and storage costs before starting a cycle.",
+      },
+      {
+        type: "h3",
+        text: "City-wise indicative picture",
+        id: "city-wise-costs",
+      },
+      {
+        type: "p",
+        text: "Egg freezing is available in every major Indian metro — Delhi NCR, Mumbai, Bengaluru, Hyderabad, Chennai and Kolkata all have registered ART clinics and banks offering oocyte cryopreservation. Pricing differs between cities and between individual clinics within the same city, and metropolitan premium facilities generally quote higher packages than mid-sized centres. Treat any figure you see advertised as a starting point for a written estimate, not a guaranteed price.",
+      },
+      {
+        type: "h2",
+        text: "Age Limit and Medical Eligibility",
+        id: "age-limit-eligibility",
+      },
+      {
+        type: "p",
+        text: "Under the ART Act, 2021 framework, ART services may be provided to women above the age of 21 and below the age of 50, and to men between 26 and 55 years. Within that statutory window, clinics will also apply medical criteria: ovarian reserve testing, general health screening and infection screening as prescribed by the ART Rules.",
+      },
+      {
+        type: "p",
+        text: "From a medical — not legal — standpoint, outcomes are generally better when eggs are frozen at a younger age, because egg quality declines over time. Many specialists advise women considering elective freezing to do so in their late twenties or early thirties, though the law permits the procedure within the full statutory age band.",
+      },
+      {
+        type: "h2",
+        text: "What Indian Law Says About Egg Freezing",
+        id: "legal-framework",
+      },
+      {
+        type: "p",
+        text: "Egg freezing sits squarely within the ART Act, 2021 and the ART (Regulation) Rules, 2022. The key legal points every woman should know before signing a clinic's consent forms:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Registered clinics only — oocyte cryopreservation can lawfully be performed only by an ART clinic or bank registered under the Act. Unregistered facilities operate illegally.",
+          "Written informed consent — the clinic must take your informed written consent in a language you understand, explaining the procedure, risks, success limitations and storage terms.",
+          "Your ownership of your eggs — frozen eggs remain your genetic material. Their use, continued storage or discard is governed by your consent and the statutory framework, not the clinic's preference.",
+          "Storage period rules — the ART Rules prescribe conditions governing the cryopreservation and storage of gametes and embryos, including record-keeping and consent for storage and use.",
+          "Future use is regulated — thawed eggs can be used for your own treatment through registered ART procedures, subject to the law in force at that time.",
+          "Grievance redress — the Act creates regulatory authorities and penalties for clinics that breach statutory duties, including improper consent or unsafe practices.",
+        ],
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        title: "Read the storage consent carefully",
+        text: "Disputes most often arise years later — over storage fees, renewal terms, or what happens to frozen eggs if consent is not renewed or the clinic closes. Before paying, insist on written terms covering the storage period, annual fees, renewal notices, and the fate of the eggs if you stop paying or cannot be contacted.",
+      },
+      {
+        type: "h2",
+        text: "Egg Freezing vs Embryo Freezing",
+        id: "egg-vs-embryo-freezing",
+      },
+      {
+        type: "p",
+        text: "The two procedures share the stimulation and retrieval steps, but differ in what is frozen and in their legal and practical implications:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Egg freezing preserves unfertilised eggs and suits single women or those without a chosen sperm source; the eggs are your genetic material alone.",
+          "Embryo freezing preserves a fertilised embryo, which involves the genetic material of both partners — future use typically requires both parties' consent, which can create complications if the relationship changes.",
+          "Costs are broadly comparable for the freezing cycle itself; embryo freezing adds fertilisation (IVF/ICSI) charges at the time of freezing, while egg freezing defers those charges to the future thaw cycle.",
+          "Embryos have historically shown marginally higher survival rates on thawing than eggs, though modern vitrification has narrowed the gap considerably.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Hidden and Recurring Costs to Plan For",
+        id: "hidden-costs",
+      },
+      {
+        type: "ul",
+        items: [
+          "Multi-year storage — annual storage fees accumulate; freezing at 30 and using at 38 means eight years of storage charges.",
+          "The thaw and transfer cycle — using frozen eggs later involves thawing, ICSI fertilisation, embryo culture and transfer, which is billed as a separate treatment cycle.",
+          "Repeat cycles — women with low ovarian reserve may need more than one stimulation cycle to bank a meaningful number of eggs.",
+          "Medication variability — stimulation drugs are frequently billed separately from the package and can vary with your body's response.",
+          "Screening and add-on tests — infection screening, genetic testing or additional investigations may be charged separately.",
+        ],
+      },
+      {
+        type: "p",
+        text: "When comparing clinics, compare the complete multi-year picture — retrieval, freezing, storage over your expected timeline, and the eventual thaw-and-transfer cycle — rather than the headline package price.",
+      },
+      {
+        type: "h2",
+        text: "Legal Checklist Before You Pay Any Clinic",
+        id: "legal-checklist",
+      },
+      {
+        type: "ol",
+        items: [
+          "Verify the clinic is registered as an ART clinic or bank under the ART Act, 2021 — ask for the registration certificate.",
+          "Obtain a written, itemised cost estimate covering the procedure, medications, freezing, annual storage and the future thaw cycle.",
+          "Read the informed consent documents fully, in a language you understand, before signing.",
+          "Get the storage terms in writing: duration, annual fee, renewal process, and what happens on non-renewal, clinic closure or your death.",
+          "Confirm in writing that the eggs remain your genetic material and under what consents they may be used, transferred or discarded.",
+          "Keep copies of every consent form, receipt and report you sign or receive.",
+          "If your case involves medical treatment (such as chemotherapy), coordinate written timelines between your treating doctor and the ART clinic.",
+          "Consult a lawyer experienced in ART law if anything in the consent or storage terms is unclear.",
+        ],
+      },
+      {
+        type: "links",
+        title: "Related reading",
+        items: [
+          { label: "IVF Cost in India 2026 — Complete Breakdown", to: "/blog/ivf-cost-in-india" },
+          { label: "IVF Success Rate in India — What Affects It", to: "/blog/ivf-success-rate-in-india" },
+          { label: "Surrogacy Laws in India 2026", to: "/blog/surrogacy-laws-in-india" },
+          { label: "ART Act Compliance Services", to: "/services/art-act-compliance" },
+          { label: "IVF Legal Services", to: "/services/ivf-legal-services" },
+          { label: "Schedule a Legal Consultation", to: "/contact" },
+        ],
+      },
+      {
+        type: "h2",
+        text: "Conclusion",
+        id: "conclusion",
+      },
+      {
+        type: "p",
+        text: "Egg freezing offers women in India a lawful, regulated way to preserve fertility — but the real cost is more than the clinic's package price. It includes medications, multi-year storage and the eventual thaw-and-transfer cycle, and the legal protections you receive depend entirely on using a registered ART clinic with proper written consent and storage terms. Verify registration, demand itemised written estimates, and read every consent clause before you pay.",
+      },
+      {
+        type: "p",
+        text: "If you are considering egg freezing and want legal clarity on consent, storage terms or a clinic's obligations under the ART Act, a short legal consultation before you sign anything can prevent disputes years later.",
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does it cost to freeze eggs in India?",
+        a: "There is no single fixed price. The total cost varies by clinic, city and your response to medication, and is built from consultation and tests, stimulation drugs, the retrieval procedure, freezing charges and annual storage fees. Always ask for a written, itemised estimate before starting a cycle.",
+      },
+      {
+        q: "What is egg freezing?",
+        a: "Egg freezing (oocyte cryopreservation) is a procedure in which a woman's mature eggs are retrieved, frozen by vitrification and stored for future use. When she is ready to conceive, the eggs are thawed, fertilised through IVF/ICSI and transferred as embryos.",
+      },
+      {
+        q: "Is egg freezing legal in India?",
+        a: "Yes. Egg freezing is legal in India when performed by an ART clinic or bank registered under the Assisted Reproductive Technology (Regulation) Act, 2021, following the consent and record-keeping requirements of the ART Rules, 2022.",
+      },
+      {
+        q: "Can a single woman freeze her eggs in India?",
+        a: "Yes. Indian law does not restrict egg freezing to married women. A single adult woman can access ART services, including oocyte cryopreservation, from a registered clinic, subject to consent and documentation requirements.",
+      },
+      {
+        q: "What is the age limit for egg freezing in India?",
+        a: "Under the ART Act framework, ART services may be provided to women above 21 and below 50 years of age. Within that window, clinics apply medical criteria such as ovarian reserve and health screening.",
+      },
+      {
+        q: "At what age is it best to freeze eggs?",
+        a: "Legally the procedure is available between 21 and 50, but medically outcomes are generally better when eggs are frozen younger, because egg quality declines with age. Many specialists suggest the late twenties to early thirties for elective freezing.",
+      },
+      {
+        q: "How long can eggs remain frozen in India?",
+        a: "The ART Rules prescribe conditions governing the cryopreservation and storage of gametes, including record-keeping and consent for storage. Your storage consent with the clinic should state the storage period, annual fees and renewal terms in writing.",
+      },
+      {
+        q: "Who owns frozen eggs — me or the clinic?",
+        a: "Frozen eggs remain your genetic material. Their use, continued storage or discard is governed by your written consent and the statutory framework, not the clinic's preference. Insist on this being recorded in your consent documents.",
+      },
+      {
+        q: "How many eggs should I freeze?",
+        a: "There is no guaranteed number. The number that gives a reasonable chance of a future pregnancy depends on your age and ovarian reserve, and women with low reserve may need more than one cycle. Your fertility specialist can advise based on your AMH and antral follicle count.",
+      },
+      {
+        q: "Is egg freezing painful or safe?",
+        a: "Egg retrieval is a short procedure performed under anaesthesia or sedation. Like any medical procedure it carries risks, including ovarian hyperstimulation, which the clinic must explain as part of informed consent. Choosing a registered, experienced clinic materially reduces risk.",
+      },
+      {
+        q: "What happens if I never use my frozen eggs?",
+        a: "That depends on your storage consent. Your written terms should cover what happens on non-renewal of storage fees, if you cannot be contacted, or if the clinic closes. Review and keep a copy of these clauses before paying.",
+      },
+      {
+        q: "Is egg freezing covered by insurance in India?",
+        a: "Coverage varies by policy and insurer. Many standard health policies do not cover elective fertility preservation, while medically indicated freezing (for example before chemotherapy) may be treated differently. Confirm with your insurer in writing before assuming coverage.",
+      },
+      {
+        q: "What is the difference between egg freezing and embryo freezing?",
+        a: "Egg freezing stores unfertilised eggs and suits single women; embryo freezing stores a fertilised embryo involving both partners' genetic material, so future use typically requires both parties' consent. Egg freezing defers fertilisation costs to the future thaw cycle.",
+      },
+      {
+        q: "How do I verify a clinic is legally allowed to freeze eggs?",
+        a: "Ask for the clinic's registration certificate under the ART Act, 2021. Only registered ART clinics and banks can lawfully perform oocyte cryopreservation in India, and registration status can be checked with the appropriate registration authority.",
+      },
+    ],
+    related: [
+      "ivf-cost-in-india",
+      "ivf-success-rate-in-india",
+      "surrogacy-laws-in-india",
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
