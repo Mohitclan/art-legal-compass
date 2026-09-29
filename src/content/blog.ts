@@ -99,6 +99,12 @@ export const posts: BlogPost[] = [
       ] },
       { type: "h2", text: "Where this information comes from", id: "sources" },
       { type: "p", text: "Legal framework: The Assisted Reproductive Technology (Regulation) Act, 2021 (India Code, Act 42 of 2021, especially provisions on clinic registration and duties) and the Assisted Reproductive Technology (Regulation) Rules, 2022. Cost context: publicly available IUI cost explainers from Apollo Fertility and Indira IVF, reviewed for broad pricing patterns rather than used as verified individual quotations. These sources do not establish a national tariff or an individual's expected outcome. Check current rules and a clinic's latest quote before relying on this guide." },
+      { type: "links", title: "Source documents", items: [
+        { label: "India Code — ART (Regulation) Act, 2021", to: "https://www.indiacode.nic.in/handle/123456789/17031" },
+        { label: "ART (Regulation) Rules, 2022", to: "https://thc.nic.in/Central%20Governmental%20Rules/Assisted%20Reproductive%20Technology%20(Regulation)%20Rules%2C%202022%2C%20%20.pdf" },
+        { label: "Apollo Fertility — IUI cost overview", to: "https://www.apollofertility.com/blog/iui/iui-cost-in-india" },
+        { label: "Indira IVF — IUI cost breakdown", to: "https://www.indiraivf.com/blog/iui-treatment-cost-in-india" },
+      ] },
       { type: "links", title: "Continue reading", items: [
         { label: "IVF Cost in India: Expense Breakdown", to: "/blog/ivf-cost-in-india" },
         { label: "IVF Success Rate in India", to: "/blog/ivf-success-rate-in-india" },
