@@ -1,0 +1,2 @@
+Blog posts are stored in the typed `src/content/blog.ts` collection so existing listing, article SEO schemas, and sitemap generation discover each article automatically.
+Article illustrations live in `src/assets` and are imported into content so Vite fingerprints and serves them without external hotlinks.
