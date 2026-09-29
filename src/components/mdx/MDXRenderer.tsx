@@ -31,7 +31,11 @@ const MDXRenderer = ({ blocks }: { blocks: MDXBlock[] }) => (
             <ul className="grid sm:grid-cols-2 gap-2">
               {b.items.map((l, j) => (
                 <li key={j}>
-                  <PrefetchLink to={l.to} className="text-primary hover:text-gold underline underline-offset-4 transition-colors">{l.label}</PrefetchLink>
+                   {l.to.startsWith("https://") ? (
+                     <a href={l.to} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-gold underline underline-offset-4 transition-colors">{l.label}</a>
+                   ) : (
+                     <PrefetchLink to={l.to} className="text-primary hover:text-gold underline underline-offset-4 transition-colors">{l.label}</PrefetchLink>
+                   )}
                 </li>
               ))}
             </ul>
