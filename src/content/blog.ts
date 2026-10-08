@@ -1,6 +1,7 @@
 // Blog collection. Add posts by pushing objects that satisfy BlogPost.
 import type { BlogPost, Category, Tag, Author, ContentCollection } from "./types";
 import iuiConsultationImage from "@/assets/iui-treatment-cost-in-india.jpg";
+import testTubeBabyImage from "@/assets/test-tube-baby-cost-in-india.jpg";
 
 export const blogCategories: Category[] = [
   { slug: "surrogacy", name: "Surrogacy Law", description: "Surrogacy (Regulation) Act, 2021 explained." },
