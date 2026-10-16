@@ -2,6 +2,7 @@
 import type { BlogPost, Category, Tag, Author, ContentCollection } from "./types";
 import iuiConsultationImage from "@/assets/iui-treatment-cost-in-india.jpg";
 import testTubeBabyImage from "@/assets/test-tube-baby-cost-in-india.jpg";
+import spermDonationImage from "@/assets/sperm-donation-in-india.jpg";
 
 export const blogCategories: Category[] = [
   { slug: "surrogacy", name: "Surrogacy Law", description: "Surrogacy (Regulation) Act, 2021 explained." },
@@ -19,6 +20,8 @@ export const blogTags: Tag[] = [
   { slug: "clinics", name: "Clinics" },
   { slug: "case-law", name: "Case Law" },
   { slug: "foreign-nationals", name: "Foreign Nationals" },
+  { slug: "donors", name: "Donors" },
+  { slug: "art-act", name: "ART Act" },
 ];
 
 export const blogAuthors: Author[] = [
@@ -26,6 +29,91 @@ export const blogAuthors: Author[] = [
 ];
 
 export const posts: BlogPost[] = [
+  {
+    slug: "sperm-donation-in-india",
+    title: "Sperm Donation in India 2026: Legal Rules, Process & Donor Rights",
+    description: "Can you donate or use donor sperm in India? ART Act 2021 rules on sperm donors, age limits, ART banks, anonymity, consent, payment and the child's legal status.",
+    keywords: ["sperm donation", "sperm donor", "sperm donation in india", "sperm donor in india", "sperm bank in india", "donor sperm ivf", "sperm donation rules india", "art act sperm donor", "donor iui", "sperm donor age limit india"],
+    category: "art",
+    tags: ["donors", "art-act", "compliance", "eligibility", "clinics"],
+    author: "barkha-dwivedi",
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    ogImage: spermDonationImage,
+    hero: { src: spermDonationImage, alt: "Embryologist handling donor sperm samples at a registered ART bank in India", width: 1200, height: 630 },
+    excerpt: "Thousands of Indians search 'sperm donor' every month — some wanting to donate, many needing donor sperm for IUI or IVF. This guide explains exactly what the ART (Regulation) Act, 2021 allows, who can donate, how ART banks work, and the legal protections for donors, recipients and the child.",
+    body: [
+      { type: "p", text: "Donor sperm helps couples facing severe male-factor infertility, and single women who wish to become mothers, to conceive through IUI or IVF. Since January 2022, sperm donation in India is no longer an informal arrangement between a clinic and a donor — it is tightly regulated by the Assisted Reproductive Technology (Regulation) Act, 2021 and the ART Rules, 2022. Whether you are thinking of donating or planning treatment with donor sperm, this guide sets out the law in plain language. It is general information, not medical or legal advice for your specific case." },
+      { type: "image", src: spermDonationImage, alt: "Donor sperm stored in cryopreservation tanks at an ART bank", width: 1200, height: 630 },
+      { type: "h2", text: "Is sperm donation legal in India?", id: "is-it-legal" },
+      { type: "p", text: "Yes. Sperm donation is legal, but only through an ART bank registered under the ART Act. Clinics may not directly recruit donors, and individuals may not sell or privately supply sperm to a couple for treatment. Every donor must be screened, documented and recorded through the registered bank, and the donated sample must be used only in a registered ART clinic." },
+      { type: "h2", text: "Who can become a sperm donor?", id: "who-can-donate" },
+      { type: "ul", items: [
+        "Age: the ART Act permits semen collection only from men aged 21 to 55 years.",
+        "Health screening: the bank must test for infectious diseases (such as HIV, hepatitis B and C), genetic conditions and other medical parameters prescribed under the Rules.",
+        "Informed written consent: the donor signs consent in the prescribed form before any collection.",
+        "Identity documentation: the bank records the donor's identity details, but these are kept confidential.",
+      ] },
+      { type: "callout", tone: "info", title: "Can I donate sperm for money?", text: "The law treats donation as a regulated service, not a sale. Banks may reimburse donors as permitted, but any commercial trade in gametes, advertising for sale, or buying sperm outside a registered bank is an offence under the ART Act. Be wary of online 'earn by donating sperm' offers that bypass registered banks." },
+      { type: "h2", text: "Who can receive donor sperm?", id: "who-can-receive" },
+      { type: "p", text: "Under the ART Act, ART services — including donor IUI and donor IVF — are available to a married couple (woman 21–50, man 21–55) where infertility is medically established, and to a single woman (including widows and divorcees) within the prescribed age band. The treating clinic records the medical indication and takes written consent from the recipient (and spouse, where married) before using donor sperm." },
+      { type: "h2", text: "The donor sperm process, step by step", id: "process" },
+      { type: "ol", items: [
+        "Medical evaluation of the couple or woman and a written recommendation for donor sperm.",
+        "Counselling on the medical, emotional and legal implications of donor conception.",
+        "Written informed consent from the recipient(s) in the prescribed form.",
+        "The registered clinic sources a screened, quarantined sample from a registered ART bank — matched broadly on physical traits and blood group as requested.",
+        "Treatment through IUI or IVF/ICSI at the registered clinic.",
+        "The clinic and bank maintain confidential records of the donation and its use, as the Rules require.",
+      ] },
+      { type: "h2", text: "Anonymity and the donor's legal position", id: "anonymity" },
+      { type: "ul", items: [
+        "The donor's identity is kept confidential; recipients do not learn who the donor is.",
+        "The donor has no parental rights or duties towards any child born from the donation.",
+        "Banks must not supply the same donor's gametes beyond the limits set under the Act, reducing the risk of many half-siblings in one area.",
+        "Records are held confidentially and may be disclosed only as the law permits (for example, on a court order or for medical reasons concerning the child).",
+      ] },
+      { type: "h2", text: "Legal status of the child", id: "child-status" },
+      { type: "p", text: "A child born through donor sperm to a commissioning couple or woman is deemed their biological child under the ART Act, with all the rights and privileges of a child born naturally — including inheritance and legitimacy. The birth certificate is issued in the intended parents' names; the donor's name does not appear." },
+      { type: "h2", text: "How much does donor sperm cost in India?", id: "cost" },
+      { type: "p", text: "There is no government-fixed tariff. As a broad planning illustration only, the donor sample itself is often billed in the low thousands to a few tens of thousands of rupees depending on the bank, screening and number of vials, with the treatment cost added on top: see our IUI cost guide and IVF cost guide for those figures. Always ask for an itemised written estimate that separately lists the donor sample, screening, storage and treatment charges." },
+      { type: "h2", text: "Penalties for illegal sperm donation", id: "penalties" },
+      { type: "p", text: "The ART Act prescribes heavy fines and, for repeat or serious offences, imprisonment for activities such as selling or buying gametes, using unscreened donors, running an unregistered bank, or misusing donor records. Patients who use informal or 'private' donors also risk disputes over parentage and the child's legal status — protections that the Act gives only to registered-channel treatment." },
+      { type: "h2", text: "Legal checklist before using donor sperm", id: "checklist" },
+      { type: "ol", items: [
+        "Verify both the clinic's and the ART bank's registration certificates.",
+        "Ask for the donor screening report (without identity details) in writing.",
+        "Read and keep copies of every consent form you sign.",
+        "Get an itemised written estimate for sample, storage and treatment.",
+        "Never accept sperm from an unregistered source or a private arrangement.",
+        "If you are a foreign national or NRI, confirm document and eligibility requirements before starting.",
+      ] },
+      { type: "links", title: "Continue reading", items: [
+        { label: "IUI Treatment Cost in India", to: "/blog/iui-treatment-cost-in-india" },
+        { label: "Test Tube Baby Cost in India", to: "/blog/test-tube-baby-cost-in-india" },
+        { label: "IVF Cost in India", to: "/blog/ivf-cost-in-india" },
+        { label: "Egg Freezing Cost in India", to: "/blog/egg-freezing-cost-in-india" },
+        { label: "ART Act Compliance Services", to: "/services/art-act-compliance" },
+        { label: "ART (Regulation) Act, 2021 — India Code", to: "https://www.indiacode.nic.in/handle/123456789/17031" },
+        { label: "Ask a legal question", to: "/contact" },
+      ] },
+      { type: "p", text: "This article is general information based on the ART (Regulation) Act, 2021 and ART Rules, 2022; it is not legal or medical advice for your case. Rules and notifications can change — confirm current requirements with a registered clinic and take professional advice before signing consents." },
+    ],
+    faqs: [
+      { q: "Is sperm donation legal in India?", a: "Yes, but only through an ART bank registered under the ART (Regulation) Act, 2021, and the sample may be used only at a registered ART clinic." },
+      { q: "What is the age limit for sperm donors in India?", a: "The ART Act permits semen collection from men aged 21 to 55 years, subject to medical screening." },
+      { q: "Can I sell my sperm in India?", a: "No. Commercial sale or purchase of gametes is prohibited. Registered banks may reimburse donors only as permitted by law." },
+      { q: "Will the sperm donor know who uses his sample?", a: "No. Donor identity and recipient identity are kept confidential by the bank and clinic." },
+      { q: "Does a sperm donor have any rights over the child?", a: "No. The donor has no parental rights or obligations; the child is legally the child of the commissioning couple or woman." },
+      { q: "Can a single woman use donor sperm in India?", a: "Yes. The ART Act allows single women, including widows and divorcees, within the prescribed age band to access ART services including donor IUI or IVF." },
+      { q: "Can a friend or relative donate sperm directly to us?", a: "Not outside the regulated system. Donations must go through a registered ART bank with screening and consent; private arrangements lack legal protection." },
+      { q: "Whose name goes on the birth certificate?", a: "The intended parents' names. The donor's name does not appear." },
+      { q: "How much does donor sperm cost in India?", a: "There is no fixed price; the sample is usually a modest part of the bill, with IUI or IVF charges added. Ask for an itemised written estimate." },
+      { q: "What is the penalty for illegal sperm donation?", a: "The ART Act provides for substantial fines and imprisonment for offences such as selling gametes or running unregistered banks." },
+      { q: "Can foreigners use donor sperm in India?", a: "ART services for foreign nationals involve additional eligibility and document checks. Take legal advice before starting treatment." },
+    ],
+    related: ["iui-treatment-cost-in-india", "test-tube-baby-cost-in-india", "ivf-cost-in-india"],
+  },
   {
     slug: "test-tube-baby-cost-in-india",
     title: "Test Tube Baby Cost in India 2026: Process, Price & Legal Rights",
