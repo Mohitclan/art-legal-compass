@@ -62,6 +62,7 @@ const BlogPostPage = () => {
       title: post.title,
       description: post.description,
       type: "article",
+      ogImage: post.hero?.src,
       publishedAt: post.publishedAt,
       updatedAt: post.updatedAt,
     }),

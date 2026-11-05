@@ -22,7 +22,7 @@ const AssociatedCentersPage = () => {
         <div className="container mx-auto px-6 max-w-5xl">
           <Breadcrumbs items={crumbs} />
         </div>
-        <IVFCenters />
+        <IVFCenters headingAs="h1" />
       </div>
       <CTASection source="associated-centers-page" />
     </>

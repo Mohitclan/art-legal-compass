@@ -56,6 +56,7 @@ export function buildArticleSchema(src: SEOSource) {
     "@type": "Article",
     headline: src.title,
     description: src.description,
+    image: src.ogImage?.startsWith("http") ? src.ogImage : abs(src.ogImage || SITE.defaultOgImage),
     datePublished: src.publishedAt,
     dateModified: src.updatedAt || src.publishedAt,
     author: { "@id": `${SITE.url}/#person` },

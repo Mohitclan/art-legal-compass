@@ -9,15 +9,16 @@ const ivfCenters = [
   { name: "Babysoon", location: "Karol Bagh" },
 ];
 
-const IVFCenters = () => {
+// Rendered as an h2 section on the homepage and as the page h1 on its own route.
+const IVFCenters = ({ headingAs: Heading = "h2" }: { headingAs?: "h1" | "h2" }) => {
   return (
     <section id="ivf-centers" className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="font-playfair text-4xl md:text-5xl font-bold text-primary mb-4">
+            <Heading className="font-playfair text-4xl md:text-5xl font-bold text-primary mb-4">
               Trusted Legal Advisor To
-            </h2>
+            </Heading>
             <div className="h-1 w-24 bg-gradient-gold mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground">
               Leading IVF and fertility centers across Delhi NCR

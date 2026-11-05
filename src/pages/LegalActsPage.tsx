@@ -22,7 +22,7 @@ const LegalActsPage = () => {
         <div className="container mx-auto px-6 max-w-7xl">
           <Breadcrumbs items={crumbs} />
         </div>
-        <LegalActs />
+        <LegalActs headingAs="h1" />
       </div>
       <CTASection source="legal-acts-page" />
     </>

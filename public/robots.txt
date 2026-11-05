@@ -1,22 +1,22 @@
 # robots.txt - Infertility Legal Solutions
 User-agent: *
 Allow: /
-Disallow: /404
+Disallow: /query-success
 
-User-agent: Googlebot
-Allow: /
-
+# AI search & answer engines: allowed so the site can be cited in
+# ChatGPT, Perplexity, Claude, Gemini and Copilot answers.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
 User-agent: Bingbot
 Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
-# Block AI crawlers you don't want (optional - remove to allow)
-# User-agent: GPTBot
-# Disallow: /
+Disallow: /query-success
 
 Sitemap: https://www.infertilitylegalsolutions.com/sitemap.xml

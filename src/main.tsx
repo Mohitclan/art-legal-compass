@@ -1,10 +1,19 @@
-import { createRoot } from "react-dom/client";
+import { createRoot, hydrateRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import App from "./App.tsx";
 import "./index.css";
 
-createRoot(document.getElementById("root")!).render(
+const root = document.getElementById("root")!;
+const app = (
   <HelmetProvider>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </HelmetProvider>
 );
+
+// Pages are prerendered at build time (scripts/prerender.mjs) so crawlers
+// and AI answer engines get full HTML; hydrate when that markup is present.
+if (root.hasChildNodes()) hydrateRoot(root, app);
+else createRoot(root).render(app);

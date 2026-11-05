@@ -25,6 +25,8 @@ const staticEntries: Entry[] = [
   { path: "/legal-acts", changefreq: "monthly", priority: "0.8" },
   { path: "/associated-centers", changefreq: "monthly", priority: "0.7" },
   { path: "/contact", changefreq: "yearly", priority: "0.8" },
+  { path: "/blog", changefreq: "weekly", priority: "0.8" },
+  { path: "/country", changefreq: "monthly", priority: "0.6" },
 ];
 
 const serviceEntries: Entry[] = services.map((s) => ({

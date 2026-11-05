@@ -25,7 +25,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      <Contact />
+      <Contact headingAs="h1" />
       <LegalQueryForm />
     </>
   );

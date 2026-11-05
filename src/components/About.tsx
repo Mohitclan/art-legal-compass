@@ -2,7 +2,8 @@ import { Award, BookOpen, Scale, Users, Briefcase, GraduationCap, FileCheck } fr
 import { Card } from "@/components/ui/card";
 import { trackConsultation } from "@/lib/analytics/events";
 
-const About = () => {
+// Rendered as an h2 section on the homepage and as the page h1 on its own route.
+const About = ({ headingAs: Heading = "h2" }: { headingAs?: "h1" | "h2" }) => {
   return (
     <section id="about" className="py-24 bg-gradient-to-b from-background via-secondary/10 to-background relative overflow-hidden">
       {/* Decorative background */}
@@ -15,9 +16,9 @@ const About = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="font-playfair text-4xl md:text-5xl font-bold text-primary mb-4">
+            <Heading className="font-playfair text-4xl md:text-5xl font-bold text-primary mb-4">
               About Advocate Barkha Dwivedi
-            </h2>
+            </Heading>
             <div className="h-1 w-24 bg-gradient-gold mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Leading Expert in Fertility Law, Surrogacy, and Reproductive Healthcare Legal Compliance

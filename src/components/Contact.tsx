@@ -1,7 +1,8 @@
 import { Mail, Phone, MapPin, Scale } from "lucide-react";
 import { trackPhoneClick, trackWhatsApp, trackEmailClick } from "@/lib/analytics/events";
 
-const Contact = () => {
+// Rendered as an h2 section on the homepage and as the page h1 on its own route.
+const Contact = ({ headingAs: Heading = "h2" }: { headingAs?: "h1" | "h2" }) => {
   return (
     <section id="contact" className="py-24 bg-gradient-to-br from-primary via-navy to-primary relative overflow-hidden">
       {/* Decorative elements */}
@@ -14,9 +15,9 @@ const Contact = () => {
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="font-playfair text-4xl md:text-5xl font-bold text-ivory mb-4">
+            <Heading className="font-playfair text-4xl md:text-5xl font-bold text-ivory mb-4">
               Get in Touch
-            </h2>
+            </Heading>
             <div className="h-1 w-24 bg-gradient-gold mx-auto mb-6"></div>
             <p className="text-lg text-ivory/80 max-w-2xl mx-auto">
               Reach out for expert legal consultation on ART, Surrogacy, and IVF compliance matters
