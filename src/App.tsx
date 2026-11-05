@@ -3,9 +3,12 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import SiteLayout from "@/layouts/SiteLayout";
 import Index from "./pages/Index";
+
+// The router is supplied by the entry: BrowserRouter in main.tsx,
+// StaticRouter in entry-server.tsx (build-time prerendering).
 
 // Code-split every non-home route so LCP on the homepage stays untouched.
 const AboutPage = lazy(() => import("./pages/AboutPage"));
@@ -34,34 +37,32 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
-        <Suspense fallback={null}>
-          <Routes>
-            <Route element={<SiteLayout />}>
-              <Route path="/" element={<Index />} />
-              <Route path="/about" element={<AboutPage />} />
-              <Route path="/services" element={<ServicesPage />} />
-              <Route path="/services/surrogacy-law" element={<SurrogacyLawPage />} />
-              <Route path="/services/ivf-legal-services" element={<IvfLegalServicesPage />} />
-              <Route path="/services/art-act-compliance" element={<ArtActCompliancePage />} />
-              <Route path="/services/pc-pndt-compliance" element={<PcPndtCompliancePage />} />
-              <Route
-                path="/services/foreign-intended-parents"
-                element={<ForeignIntendedParentsPage />}
-              />
-              <Route path="/legal-acts" element={<LegalActsPage />} />
-              <Route path="/associated-centers" element={<AssociatedCentersPage />} />
-              <Route path="/contact" element={<ContactPage />} />
-              <Route path="/blog" element={<BlogListPage />} />
-              <Route path="/blog/:slug" element={<BlogPostPage />} />
-              <Route path="/country" element={<CountryListPage />} />
-              <Route path="/country/:slug" element={<CountryDetailPage />} />
-              <Route path="/query-success" element={<QuerySuccessPage />} />
-              <Route path="*" element={<NotFound />} />
-            </Route>
-          </Routes>
-        </Suspense>
-      </BrowserRouter>
+      <Suspense fallback={null}>
+        <Routes>
+          <Route element={<SiteLayout />}>
+            <Route path="/" element={<Index />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/services" element={<ServicesPage />} />
+            <Route path="/services/surrogacy-law" element={<SurrogacyLawPage />} />
+            <Route path="/services/ivf-legal-services" element={<IvfLegalServicesPage />} />
+            <Route path="/services/art-act-compliance" element={<ArtActCompliancePage />} />
+            <Route path="/services/pc-pndt-compliance" element={<PcPndtCompliancePage />} />
+            <Route
+              path="/services/foreign-intended-parents"
+              element={<ForeignIntendedParentsPage />}
+            />
+            <Route path="/legal-acts" element={<LegalActsPage />} />
+            <Route path="/associated-centers" element={<AssociatedCentersPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/blog" element={<BlogListPage />} />
+            <Route path="/blog/:slug" element={<BlogPostPage />} />
+            <Route path="/country" element={<CountryListPage />} />
+            <Route path="/country/:slug" element={<CountryDetailPage />} />
+            <Route path="/query-success" element={<QuerySuccessPage />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+      </Suspense>
     </TooltipProvider>
   </QueryClientProvider>
 );

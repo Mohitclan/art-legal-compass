@@ -1,11 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ],
+  "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
       "source": "/sitemap.xml",
@@ -13,6 +9,10 @@
     },
     {
       "source": "/robots.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    },
+    {
+      "source": "/llms.txt",
       "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
     },
     {

@@ -36,7 +36,7 @@ const AboutPage = () => {
         <div className="container mx-auto px-6 max-w-6xl">
           <Breadcrumbs items={crumbs} />
         </div>
-        <About />
+        <About headingAs="h1" />
         <div className="container mx-auto px-6 max-w-5xl -mt-8 mb-8">
           <AuthorBio />
         </div>
