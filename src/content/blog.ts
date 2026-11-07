@@ -5,6 +5,7 @@ import testTubeBabyImage from "@/assets/test-tube-baby-cost-in-india.jpg";
 import spermDonationImage from "@/assets/sperm-donation-in-india.jpg";
 import icsiImage from "@/assets/icsi-treatment-in-india.jpg";
 import ivfPainImage from "@/assets/is-ivf-painful-in-india.jpg";
+import ivfAgeLimitImage from "@/assets/ivf-age-limit-in-india.jpg";
 
 export const blogCategories: Category[] = [
   { slug: "surrogacy", name: "Surrogacy Law", description: "Surrogacy (Regulation) Act, 2021 explained." },
@@ -33,6 +34,90 @@ export const blogAuthors: Author[] = [
 ];
 
 export const posts: BlogPost[] = [
+  {
+    slug: "ivf-age-limit-in-india",
+    title: "IVF Age Limit in India 2026: ART Act Rules, Court Rulings & Exceptions",
+    description: "What is the IVF age limit in India? Women 21–50 and men 21–55 under the ART Act, 2021 — plus surrogacy, donor age limits and recent court rulings.",
+    keywords: ["ivf age limit in india", "ivf age limit for female in india", "ivf age limit for male in india", "maximum age for ivf in india", "ivf after 50 in india", "art act age limit", "surrogacy age limit india", "egg donor age limit india", "ivf ki age limit", "frozen embryo transfer after 50 india"],
+    category: "ivf",
+    tags: ["eligibility", "art-act", "case-law", "patient-rights"],
+    author: "barkha-dwivedi",
+    publishedAt: "2026-11-06",
+    updatedAt: "2026-11-06",
+    ogImage: ivfAgeLimitImage,
+    hero: { src: ivfAgeLimitImage, alt: "IVF age limit in India under the ART Act, 2021: women 21 to 50, men 21 to 55", width: 1200, height: 640 },
+    excerpt: "The ART (Regulation) Act, 2021 allows IVF for women up to 50 and men up to 55. This guide explains the exact rule, how it differs for surrogacy and donors, what recent High Court and Supreme Court rulings say, and what to do if you are close to the limit.",
+    body: [
+      { type: "p", text: "Short answer: in India, IVF and other assisted reproductive technology (ART) services are available to a woman aged above 21 and below 50 years, and to a man aged above 21 and below 55 years. This rule comes from Section 21(g) of the Assisted Reproductive Technology (Regulation) Act, 2021, and it binds every registered ART clinic and bank in the country." },
+      { type: "p", text: "Surrogacy, egg donation and sperm donation each have their own, different age limits. Courts have also started to clarify how the limit applies to couples who were already in treatment, or who froze embryos, when the law came into force. This guide sets out the rule, the exceptions and the practical options in one place. It is general information, not legal advice for your specific situation." },
+      { type: "image", src: ivfAgeLimitImage, alt: "IVF age limit in India under Section 21(g) of the ART Act: women 21 to 50, men 21 to 55", width: 1200, height: 640 },
+      { type: "h2", text: "What is the IVF age limit in India?", id: "ivf-age-limit" },
+      { type: "ul", items: [
+        "Women: above 21 and below 50 years.",
+        "Men: above 21 and below 55 years.",
+        "Applies to: IVF, ICSI, IUI, frozen embryo transfer and other ART procedures at registered clinics.",
+        "Source: Section 21(g), ART (Regulation) Act, 2021, in force since January 2022.",
+      ] },
+      { type: "p", text: "The limit is checked by the clinic before treatment starts. Clinics record both partners' ages using identity documents, and a clinic that treats a patient outside the permitted age range risks action against its registration under the ART Act." },
+      { type: "callout", tone: "info", title: "Does the husband's age stop the wife's IVF?", text: "Not necessarily. High Courts, including the Kerala and Punjab & Haryana High Courts, have held that a woman within the age limit can access ART services independently even if her husband has crossed 55, for example by using donor sperm. Whether this applies to you depends on the facts and the treatment plan, so take advice before a clinic refuses treatment." },
+      { type: "h2", text: "IVF age limit for women", id: "age-limit-women" },
+      { type: "p", text: "A woman can start IVF from 21 until she turns 50. The law does not set a different limit for IVF with her own eggs and IVF with donor eggs: the age cap applies to the woman receiving treatment. Medically, success rates with a woman's own eggs fall sharply after the late thirties, which is why many women in their forties are advised to consider donor eggs or embryos. That is a medical choice to discuss with your fertility specialist; the legal ceiling stays at 50." },
+      { type: "h2", text: "IVF age limit for men", id: "age-limit-men" },
+      { type: "p", text: "A man can undergo ART treatment from 21 until he turns 55. If the male partner is above 55 but the female partner is below 50, the couple should ask whether treatment with donor sperm, or treatment of the woman alone, is legally possible in their case." },
+      { type: "h2", text: "What if treatment started before the age limit was reached?", id: "treatment-in-progress" },
+      { type: "p", text: "This is where most disputes arise. A common situation: a couple froze embryos when the woman was 48 or 49, and the clinic now refuses the frozen embryo transfer because she has turned 50. Recent rulings have given relief in some of these cases." },
+      { type: "ul", items: [
+        "Delhi High Court (June 2026): reported to have held that the ART Act age limit applies when IVF is started, not to continuing treatment with embryos already frozen, and allowed a frozen embryo transfer for a 50-year-old woman.",
+        "Supreme Court (9 October 2025, Arun Muthuvel v. Union of India): held that the Surrogacy Act's age limits do not apply to couples who had started the surrogacy process, such as by freezing embryos, before the Act came into force in January 2022.",
+        "Not every court agrees: other High Courts, including Rajasthan, Gauhati and Bombay, have upheld the age limit or declined to set it aside, and challenges to the ART Act's age cap remain pending before the Supreme Court.",
+      ] },
+      { type: "callout", tone: "warn", title: "Relief is not automatic", text: "These rulings do not let clinics ignore the age limit. In most cases the couple must approach the jurisdictional High Court with records showing when treatment began. Keep your consent forms, embryo freezing records and payment receipts safe." },
+      { type: "h2", text: "Surrogacy age limit in India", id: "surrogacy-age-limit" },
+      { type: "p", text: "Surrogacy has stricter limits under the Surrogacy (Regulation) Act, 2021, and these apply in addition to the ART Act:" },
+      { type: "ul", items: [
+        "Intending mother: 23 to 50 years.",
+        "Intending father: 26 to 55 years.",
+        "Single woman (widow or divorcee): 35 to 45 years.",
+        "Surrogate mother: 25 to 35 years, married with a child of her own, and a surrogate only once in her lifetime.",
+      ] },
+      { type: "links", title: "Read more on surrogacy", items: [
+        { label: "Surrogacy laws in India", to: "/blog/surrogacy-laws-in-india" },
+        { label: "Surrogacy process in India", to: "/blog/surrogacy-process-in-india" },
+      ] },
+      { type: "h2", text: "Egg and sperm donor age limits", id: "donor-age-limits" },
+      { type: "ul", items: [
+        "Egg (oocyte) donor: 23 to 35 years, married with at least one living child of her own aged at least three; she may donate only once in her lifetime, and no more than seven eggs may be retrieved.",
+        "Sperm donor: 21 to 55 years, screened and registered through an ART bank.",
+        "Donor identity is confidential, and donors cannot be selected by the patient directly; the ART bank supplies gametes.",
+      ] },
+      { type: "h2", text: "What can you do if you are close to the limit?", id: "practical-options" },
+      { type: "ol", items: [
+        "Start early: the limit is checked at the start of treatment, so begin assessment before your 50th (or 55th) birthday rather than after.",
+        "Consider freezing embryos while within the limit, and keep dated records of every step.",
+        "Ask the clinic for its refusal in writing, with the legal provision it relies on.",
+        "Get legal advice on whether a recent ruling covers your facts before approaching the High Court.",
+        "If one partner is over the limit, ask whether donor gametes or treatment of the eligible partner alone is an option.",
+      ] },
+      { type: "p", text: "Advocate Barkha Dwivedi advises couples, single women and ART clinics on eligibility, consent and age-limit disputes under the ART Act and Surrogacy Act. If a clinic has refused treatment on age grounds, a short consultation can tell you whether you have a case." },
+      { type: "links", title: "Related guides", items: [
+        { label: "IVF cost in India", to: "/blog/ivf-cost-in-india" },
+        { label: "Egg freezing cost in India", to: "/blog/egg-freezing-cost-in-india" },
+        { label: "ART Act compliance", to: "/services/art-act-compliance" },
+        { label: "Book a consultation", to: "/contact" },
+      ] },
+    ],
+    faqs: [
+      { q: "What is the maximum age for IVF in India?", a: "Under Section 21(g) of the ART (Regulation) Act, 2021, a woman must be below 50 and a man below 55 to receive IVF or other ART services in India." },
+      { q: "Can a woman above 50 do IVF in India?", a: "Generally no. Registered clinics cannot start IVF for a woman aged 50 or above. Some courts have allowed women who froze embryos before turning 50 to complete a frozen embryo transfer, but this requires a court order on the facts." },
+      { q: "What is the minimum age for IVF in India?", a: "Section 21(g) of the ART Act requires both the woman and the man to be above 21 years of age." },
+      { q: "Can the wife undergo IVF if the husband is above 55?", a: "Courts, including the Kerala and Punjab & Haryana High Courts, have held that a woman within the age limit may access ART services independently, for example with donor sperm. Get advice on your specific case." },
+      { q: "What is the age limit for surrogacy in India?", a: "Under the Surrogacy (Regulation) Act, 2021, the intending mother must be 23 to 50, the intending father 26 to 55, and a single widowed or divorced woman 35 to 45. The surrogate must be 25 to 35." },
+      { q: "Does the age limit apply if we froze embryos before the law came into force?", a: "For surrogacy, the Supreme Court held on 9 October 2025 that the age bar does not apply to couples who started the process, such as by freezing embryos, before January 2022. Similar couples may approach their High Court to apply that ruling." },
+      { q: "What is the age limit for egg donors in India?", a: "An egg donor must be 23 to 35, married with at least one child of her own aged at least three, and may donate only once in her lifetime." },
+      { q: "Can an IVF clinic be penalised for treating a patient above the age limit?", a: "Yes. Providing ART services in breach of the Act can lead to action against the clinic's registration and penalties under the ART Act, 2021." },
+    ],
+    related: ["ivf-cost-in-india", "egg-freezing-cost-in-india", "surrogacy-laws-in-india"],
+  },
   {
     slug: "is-ivf-painful-in-india",
     title: "Is IVF Painful? Injections, Egg Retrieval & Patient Rights in India",
