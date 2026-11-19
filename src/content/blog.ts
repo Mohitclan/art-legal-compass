@@ -6,6 +6,7 @@ import spermDonationImage from "@/assets/sperm-donation-in-india.jpg";
 import icsiImage from "@/assets/icsi-treatment-in-india.jpg";
 import ivfPainImage from "@/assets/is-ivf-painful-in-india.jpg";
 import ivfAgeLimitImage from "@/assets/ivf-age-limit-in-india.jpg";
+import singleWomanIvfImage from "@/assets/ivf-for-single-women-in-india.jpg";
 
 export const blogCategories: Category[] = [
   { slug: "surrogacy", name: "Surrogacy Law", description: "Surrogacy (Regulation) Act, 2021 explained." },
@@ -34,6 +35,92 @@ export const blogAuthors: Author[] = [
 ];
 
 export const posts: BlogPost[] = [
+  {
+    slug: "ivf-for-single-women-in-india",
+    title: "Can a Single Woman Do IVF in India? ART Act Rules, Donor Sperm & Rights (2026)",
+    description: "Yes — single women aged 21–50 can legally do IVF or IUI with donor sperm in India under the ART Act, 2021. Rules, documents, child's rights and surrogacy limits.",
+    keywords: ["can a single woman do ivf in india", "ivf for single women in india", "can unmarried woman do ivf in india", "single mother by choice india", "donor sperm ivf india legal", "iui for single women india", "single woman surrogacy india", "art act single woman", "kya unmarried ladki ivf kara sakti hai", "birth certificate single mother ivf"],
+    category: "ivf",
+    tags: ["eligibility", "art-act", "donors", "patient-rights", "documentation"],
+    author: "barkha-dwivedi",
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    ogImage: singleWomanIvfImage,
+    hero: { src: singleWomanIvfImage, alt: "IVF for single women in India under the ART Act, 2021: legal for women aged 21 to 50 with donor sperm", width: 1200, height: 640 },
+    excerpt: "Single, unmarried, divorced and widowed women can legally have IVF or IUI with donor sperm in India. This guide explains what the ART Act, 2021 allows, the documents clinics ask for, the child's legal status, and why surrogacy rules are different.",
+    body: [
+      { type: "p", text: "Short answer: yes. A single woman in India, whether unmarried, divorced or widowed, can legally undergo IVF, IUI or ICSI with donor sperm, provided she is above 21 and below 50 years of age. The Assisted Reproductive Technology (Regulation) Act, 2021 extends ART services not only to infertile married couples but also to a \"woman\", defined as any woman above 21 who approaches a registered ART clinic or bank." },
+      { type: "p", text: "Surrogacy is a different matter. Under the Surrogacy (Regulation) Act, 2021 only widowed or divorced women aged 35 to 45 can opt for surrogacy, and never-married women are currently excluded. This guide explains both laws, the paperwork, and the rights of the child. It is general information, not legal advice for your specific situation." },
+      { type: "image", src: singleWomanIvfImage, alt: "Single women can do IVF in India: ages 21 to 50, donor sperm from a registered ART bank", width: 1200, height: 640 },
+      { type: "h2", text: "Is IVF legal for single women in India?", id: "is-it-legal" },
+      { type: "p", text: "Yes. The ART Act recognises two kinds of patients: a \"commissioning couple\" (an infertile married couple) and a \"woman\" seeking ART services on her own. Marriage is not a condition for the second category. A registered clinic can therefore lawfully treat a single woman, subject to the same age limit, consent and screening rules that apply to every patient." },
+      { type: "ul", items: [
+        "Who qualifies: unmarried, divorced, widowed or separated women.",
+        "Age: above 21 and below 50 years (Section 21(g), ART Act).",
+        "Treatments: IUI, IVF, ICSI and frozen embryo transfer, using donor sperm.",
+        "Egg freezing: also open to single women who want to preserve fertility for later.",
+      ] },
+      { type: "h2", text: "Rules for donor sperm", id: "donor-sperm-rules" },
+      { type: "ul", items: [
+        "Sperm must come from an ART bank registered under the Act; private or \"known donor\" arrangements outside a registered bank are not permitted.",
+        "Donors must be 21 to 55 years old and medically screened.",
+        "The donor's identity is kept confidential. You may receive non-identifying details, such as blood group, height and education, but not the donor's name.",
+        "Semen from two different donors cannot be mixed, and clinics must keep records and report to the National Registry.",
+      ] },
+      { type: "callout", tone: "info", title: "Can a friend be my sperm donor?", text: "Not through the regulated route. Under the ART Act, gametes must be sourced through a registered ART bank and the donor stays anonymous. An informal known-donor arrangement can create serious legal uncertainty about the child's parentage, so take advice before considering one." },
+      { type: "h2", text: "What documents do clinics ask for?", id: "documents" },
+      { type: "ol", items: [
+        "Proof of identity and age, such as Aadhaar, passport or PAN.",
+        "Proof of marital status, if relevant: a divorce decree or death certificate of the spouse. Unmarried women usually sign a declaration.",
+        "Medical reports: hormone tests, ultrasound and screening for infections.",
+        "Written informed consent in the forms prescribed under the ART Rules, 2022, covering use of donor sperm, embryo storage and what happens to surplus embryos.",
+        "In many clinics, counselling notes confirming the patient understands single parenthood and the donor process.",
+      ] },
+      { type: "h2", text: "Is the child legally mine? Birth certificate and rights", id: "child-rights" },
+      { type: "p", text: "Yes. Section 31 of the ART Act treats a child born through ART as the biological child of the woman who commissioned the treatment, with all the rights of a child born naturally. The donor has no parental rights or duties over the child." },
+      { type: "ul", items: [
+        "Birth certificate: the Supreme Court, in ABC v. State (NCT of Delhi) (2015), held that an unwed mother can obtain her child's birth certificate on her own affidavit, without naming the father.",
+        "Guardianship: the mother is the child's natural guardian; no court order is needed to act for the child.",
+        "Passport: Indian passport rules allow a single parent to apply for a child's passport, and the father's name is not mandatory.",
+        "Inheritance: the child inherits from the mother like any other child.",
+      ] },
+      { type: "h2", text: "Can a single woman have a baby through surrogacy?", id: "surrogacy" },
+      { type: "p", text: "Only in limited cases. The Surrogacy (Regulation) Act, 2021 allows an Indian widow or divorcee aged 35 to 45 to commission altruistic surrogacy. She must use her own eggs with donor sperm, and she needs the eligibility and medical certificates required by the Act." },
+      { type: "callout", tone: "warn", title: "Never-married women are currently excluded", text: "A never-married single woman cannot commission surrogacy under the current law. The Supreme Court has issued notice on petitions challenging this exclusion, and on related challenges by single men and others, but no final decision had been reported at the time of writing. Check the latest position before you plan." },
+      { type: "h2", text: "Who still cannot use ART in India?", id: "excluded" },
+      { type: "ul", items: [
+        "Single men: the ART Act has no route for a man on his own, and the Surrogacy Act excludes single men.",
+        "Unmarried (live-in) couples and same-sex couples: the definition of \"commissioning couple\" covers only married couples. Constitutional challenges are pending.",
+      ] },
+      { type: "h2", text: "Step-by-step: IVF as a single woman", id: "steps" },
+      { type: "ol", items: [
+        "Check the clinic's registration under the ART Act before paying anything.",
+        "Fertility assessment: AMH, ultrasound and general health tests.",
+        "Counselling and informed consent, including donor-sperm consent forms.",
+        "Donor selection through the clinic's tie-up with a registered ART bank.",
+        "Treatment: IUI first in some cases, or IVF/ICSI directly, depending on age and ovarian reserve.",
+        "Keep copies of every consent form, the donor code and invoices; you may need them for the child's records later.",
+      ] },
+      { type: "p", text: "Advocate Barkha Dwivedi advises single women, ART clinics and ART banks on eligibility, consent documentation and parentage under the ART Act and Surrogacy Act. If a clinic has refused treatment because you are unmarried, or you want your documents checked before you begin, a consultation can help." },
+      { type: "links", title: "Related guides", items: [
+        { label: "IVF age limit in India", to: "/blog/ivf-age-limit-in-india" },
+        { label: "Sperm donation in India", to: "/blog/sperm-donation-in-india" },
+        { label: "IVF cost in India", to: "/blog/ivf-cost-in-india" },
+        { label: "Book a consultation", to: "/contact" },
+      ] },
+    ],
+    faqs: [
+      { q: "Can an unmarried woman do IVF in India?", a: "Yes. The ART (Regulation) Act, 2021 allows any woman above 21 and below 50 to receive ART services, including IVF and IUI with donor sperm, at a registered clinic. Marriage is not required." },
+      { q: "What is the age limit for IVF for a single woman?", a: "Above 21 and below 50 years, under Section 21(g) of the ART Act, 2021. The same limit applies to married women." },
+      { q: "Can I choose my sperm donor in India?", a: "Not by identity. Donor sperm must come from a registered ART bank and the donor stays anonymous. You may receive non-identifying information such as blood group, height and education." },
+      { q: "Will the sperm donor have any rights over my child?", a: "No. Under Section 31 of the ART Act the child is the legal child of the woman who commissioned the treatment, and the donor has no parental rights or obligations." },
+      { q: "Is the father's name required on the birth certificate?", a: "No. The Supreme Court in ABC v. State (NCT of Delhi) (2015) held that an unwed mother can obtain her child's birth certificate on her own affidavit without disclosing the father." },
+      { q: "Can a single woman have a baby through surrogacy in India?", a: "Only an Indian widow or divorcee aged 35 to 45 can opt for altruistic surrogacy, using her own eggs and donor sperm. Never-married women are currently excluded, though this is under challenge in the Supreme Court." },
+      { q: "Can a single woman freeze her eggs in India?", a: "Yes. Egg freezing is an ART service available to women aged above 21 and below 50 at a registered clinic or bank, subject to written consent on storage terms." },
+      { q: "Can a single man do IVF or surrogacy in India?", a: "Not under current law. The ART Act and Surrogacy Act do not provide a route for single men, although petitions challenging this are pending before the Supreme Court." },
+    ],
+    related: ["ivf-age-limit-in-india", "sperm-donation-in-india", "ivf-cost-in-india"],
+  },
   {
     slug: "ivf-age-limit-in-india",
     title: "IVF Age Limit in India 2026: ART Act Rules, Court Rulings & Exceptions",
