@@ -7,6 +7,7 @@ import icsiImage from "@/assets/icsi-treatment-in-india.jpg";
 import ivfPainImage from "@/assets/is-ivf-painful-in-india.jpg";
 import ivfAgeLimitImage from "@/assets/ivf-age-limit-in-india.jpg";
 import singleWomanIvfImage from "@/assets/ivf-for-single-women-in-india.jpg";
+import genderDeterminationImage from "@/assets/is-gender-determination-legal-in-india.jpg";
 
 export const blogCategories: Category[] = [
   { slug: "surrogacy", name: "Surrogacy Law", description: "Surrogacy (Regulation) Act, 2021 explained." },
@@ -35,6 +36,92 @@ export const blogAuthors: Author[] = [
 ];
 
 export const posts: BlogPost[] = [
+  {
+    slug: "is-gender-determination-legal-in-india",
+    title: "Is Gender Determination Legal in India? PC-PNDT Act Punishment & Clinic Rules (2026)",
+    description: "No. Sex determination of a foetus is a crime in India under the PC-PNDT Act, 1994. Punishment for doctors, families and clinics, Form F rules and how to report.",
+    keywords: ["is gender determination legal in india", "gender determination test punishment in india", "pcpndt act punishment", "sex determination law in india", "pc pndt act 1994", "form f pcpndt", "ultrasound clinic pcpndt registration", "ling parikshan kanoon", "gender test in india legal or not", "how to report sex determination"],
+    category: "pc-pndt",
+    tags: ["compliance", "clinics", "case-law", "documentation"],
+    author: "barkha-dwivedi",
+    publishedAt: "2026-11-24",
+    updatedAt: "2026-11-24",
+    ogImage: genderDeterminationImage,
+    hero: { src: genderDeterminationImage, alt: "Gender determination is illegal in India under the PC-PNDT Act, 1994: up to 5 years in prison", width: 1200, height: 640 },
+    excerpt: "Finding out or revealing the sex of an unborn child is a criminal offence in India. This guide explains what the PC-PNDT Act, 1994 prohibits, the punishment for doctors, families and clinics, the Form F record rules, and how to report a violation.",
+    body: [
+      { type: "p", text: "Short answer: no. Determining or disclosing the sex of a foetus is illegal in India under the Pre-Conception and Pre-Natal Diagnostic Techniques (Prohibition of Sex Selection) Act, 1994, commonly called the PC-PNDT Act. It is an offence for the doctor who performs or reveals the test, for the clinic, for anyone who advertises it, and for the family member who asks for it. Every offence under the Act is cognizable, non-bailable and non-compoundable." },
+      { type: "p", text: "This guide is for families who want to understand the law and for doctors, radiologists and ultrasound clinics who must comply with it. It is general information, not legal advice for a specific case." },
+      { type: "image", src: genderDeterminationImage, alt: "PC-PNDT Act, 1994: sex determination is a cognizable, non-bailable offence", width: 1200, height: 640 },
+      { type: "h2", text: "What does the PC-PNDT Act prohibit?", id: "what-is-prohibited" },
+      { type: "ul", items: [
+        "Sex selection before or after conception (Section 3A).",
+        "Using ultrasound or any prenatal diagnostic technique to determine the sex of a foetus (Section 6).",
+        "Telling the pregnant woman, her relatives or anyone else the sex of the foetus by words, signs or any other method (Section 5(2)).",
+        "Advertising sex determination or sex selection in any form, including online (Section 22).",
+        "Running a genetic counselling centre, laboratory, clinic or ultrasound centre without registration under the Act (Section 18).",
+      ] },
+      { type: "callout", tone: "info", title: "Is ultrasound during pregnancy illegal?", text: "No. Ultrasound for medical reasons, such as checking the baby's growth, position or abnormalities, is legal and important. Only determining or disclosing the baby's sex is banned. Prenatal diagnostic tests are permitted for specified medical conditions such as chromosomal abnormalities, genetic disorders and congenital anomalies (Section 4)." },
+      { type: "h2", text: "Punishment for gender determination in India", id: "punishment" },
+      { type: "h3", text: "Doctors, radiologists and clinic owners", id: "punishment-doctors" },
+      { type: "ul", items: [
+        "First offence: imprisonment up to 3 years and a fine up to ₹10,000.",
+        "Subsequent offence: imprisonment up to 5 years and a fine up to ₹50,000.",
+        "Medical registration: the doctor's name is reported to the State Medical Council; registration can be suspended once charges are framed and removed for 5 years on first conviction, and permanently for a repeat conviction.",
+      ] },
+      { type: "h3", text: "Family members who seek sex selection", id: "punishment-family" },
+      { type: "ul", items: [
+        "First offence: imprisonment up to 3 years and a fine up to ₹50,000.",
+        "Subsequent offence: imprisonment up to 5 years and a fine up to ₹1,00,000.",
+        "The pregnant woman is presumed to have been compelled by her husband or relatives unless proved otherwise, so she is not punished by default.",
+      ] },
+      { type: "h3", text: "Advertising sex determination", id: "punishment-ads" },
+      { type: "p", text: "Advertising sex determination facilities, including through websites, social media or search ads, is punishable with imprisonment up to 3 years and a fine up to ₹10,000. The Supreme Court has directed search engines to block such advertisements in India." },
+      { type: "h2", text: "Form F and record-keeping: the biggest risk for clinics", id: "form-f" },
+      { type: "p", text: "Most PC-PNDT prosecutions against doctors are not about proven sex determination but about incomplete records. Every ultrasound on a pregnant woman must be recorded in Form F, signed by the doctor and the patient, and the records must be preserved for at least two years." },
+      { type: "callout", tone: "warn", title: "Form F errors are not \"just clerical\"", text: "In FOGSI v. Union of India (3 May 2019), the Supreme Court upheld Section 23 of the Act and held that failing to maintain Form F properly is not a mere clerical error, because missing records can hide sex determination. Incomplete or vague entries can lead to prosecution, sealing of machines and suspension of registration." },
+      { type: "h2", text: "Compliance checklist for ultrasound and IVF clinics", id: "clinic-checklist" },
+      { type: "ol", items: [
+        "Register every ultrasound machine and the centre with the Appropriate Authority, and renew registration on time.",
+        "Display the registration certificate and a board stating that disclosure of the sex of the foetus is prohibited under law, in English and the local language.",
+        "Complete Form F fully for every pregnant patient, including the referral details and indication for the scan.",
+        "Submit monthly reports to the Appropriate Authority by the due date.",
+        "Inform the authority before buying, selling, moving or disposing of any ultrasound machine.",
+        "Keep a copy of the PC-PNDT Act and Rules at the centre, and train every staff member who handles scans.",
+        "Preserve all records, images and consent forms for at least two years, longer if a case is pending.",
+      ] },
+      { type: "links", title: "Need help with compliance?", items: [
+        { label: "PC-PNDT compliance services", to: "/services/pc-pndt-compliance" },
+        { label: "ART Act compliance", to: "/services/art-act-compliance" },
+      ] },
+      { type: "h2", text: "How to report sex determination", id: "how-to-report" },
+      { type: "ul", items: [
+        "Complain to the district Appropriate Authority, usually the Chief Medical Officer or Civil Surgeon of the district.",
+        "Use your state's PC-PNDT helpline or online portal. Many states also run informer reward schemes.",
+        "A citizen can approach the court directly after giving 15 days' notice to the Appropriate Authority (Section 28).",
+        "Keep any evidence you have, such as receipts, messages or advertisements; do not put yourself at risk to collect it.",
+      ] },
+      { type: "h2", text: "What happens if a clinic is raided?", id: "raids" },
+      { type: "p", text: "The Appropriate Authority can inspect a centre, seize records, and seal ultrasound machines (Section 30). The clinic's registration can be suspended. Because the offences are non-bailable, a doctor named in a complaint should take legal advice immediately, preserve all records as they are, and avoid altering any document after the inspection." },
+      { type: "p", text: "Advocate Barkha Dwivedi advises ultrasound centres, IVF clinics and hospitals on PC-PNDT registration, Form F audits, show-cause notices and defence in prosecutions before the Appropriate Authority and courts." },
+      { type: "links", title: "Related guides", items: [
+        { label: "Surrogacy laws in India", to: "/blog/surrogacy-laws-in-india" },
+        { label: "IVF age limit in India", to: "/blog/ivf-age-limit-in-india" },
+        { label: "Book a consultation", to: "/contact" },
+      ] },
+    ],
+    faqs: [
+      { q: "Is gender determination legal in India?", a: "No. Determining or disclosing the sex of a foetus is a criminal offence under the PC-PNDT Act, 1994. It is cognizable, non-bailable and non-compoundable." },
+      { q: "What is the punishment for a doctor who reveals the baby's gender?", a: "Up to 3 years in prison and a fine up to ₹10,000 for a first offence, and up to 5 years and ₹50,000 for a repeat offence. The doctor's medical registration can also be suspended and removed." },
+      { q: "What is the punishment for families who ask for a gender test?", a: "A person who seeks sex selection faces up to 3 years in prison and a fine up to ₹50,000 for a first offence, and up to 5 years and ₹1,00,000 for a repeat offence. The pregnant woman is presumed to have been compelled unless proved otherwise." },
+      { q: "Is ultrasound during pregnancy legal in India?", a: "Yes. Ultrasound for medical reasons is legal. Only determining or disclosing the sex of the foetus is prohibited." },
+      { q: "What is Form F under the PC-PNDT Act?", a: "Form F is the mandatory record that must be filled for every ultrasound on a pregnant woman. It must be complete, signed and preserved for at least two years. The Supreme Court has held that Form F deficiencies are not mere clerical errors." },
+      { q: "Can IVF clinics choose the sex of the embryo?", a: "No. Sex selection before or after conception, including selecting embryos by sex during IVF, is prohibited under Section 3A of the PC-PNDT Act." },
+      { q: "Is getting a gender test done abroad legal for Indians?", a: "The PC-PNDT Act applies to tests in India. Clinics abroad follow their own country's laws, but anyone in India who arranges, advertises or facilitates sex selection can still be prosecuted here." },
+      { q: "How do I report illegal sex determination?", a: "Complain to the district Appropriate Authority (usually the Chief Medical Officer), use the state PC-PNDT helpline or portal, or approach the court after giving 15 days' notice to the authority." },
+    ],
+    related: ["surrogacy-laws-in-india", "ivf-age-limit-in-india", "ivf-for-single-women-in-india"],
+  },
   {
     slug: "ivf-for-single-women-in-india",
     title: "Can a Single Woman Do IVF in India? ART Act Rules, Donor Sperm & Rights (2026)",
